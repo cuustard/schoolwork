@@ -1,0 +1,148 @@
+:root {
+  --background: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+/*---------- BODY ----------*/
+body {
+  max-width: 1000px;
+  margin: 50px auto 50px auto;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+/*---------- HEADINGS ----------*/
+/*----- 1 -----*/
+.headingTitle1 {
+  border-bottom: 2px solid #aecbeb;
+  height: 21px;
+  margin: 39px -30px 32px -30px;
+  text-align: center;
+}
+h1 {
+  display: inline;
+  padding: 0 20px 0 20px;
+  background-color: var(--background);
+}
+
+/*----- 2 -----*/
+.headingTitle2 {
+  width: 100%;
+  border-bottom: 1px solid #aecbeb;
+  height: 17px;
+  margin: 39px -20px 20px -20px;
+  text-align: left;
+}
+h2 {
+  display: inline;
+  padding: 0px 10px 0px 19px;
+  background-color: var(--background);
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+/*---------- PARAGRAPHS ----------*/
+li {
+  margin-left: 50px;
+}
+
+ol,
+ul {
+  margin-top: 17px;
+}
+
+p,
+li,
+td {
+  font-size: 17px;
+}
+
+/*---------- TABLES ----------*/
+/*----- basics -----*/
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+
+  max-width: 2000px;
+  width: 100%;
+
+  margin: 10px auto 20px auto;
+}
+
+/*----- table headings -----*/
+th {
+  background-color: #aecbeb;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*----- table data (a cell) -----*/
+td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+/*----- classes for rows -----*/
+.weekend {
+  background-color: #e1ecf7;
+}
+
+.endWeek {
+  border-bottom: 2px solid rgb(0, 0, 0, 0.7);
+}
+
+/*----- table row hover animation -----*/
+tr {
+  transition: background-color 0.5s;
+}
+tr:hover {
+  background-color: #e8e8e8;
+}
+
+td {
+  transition: background-color 0.4s;
+}
+td:hover {
+  background-color: lightgrey;
+}
+
+/*---------- LINKS ----------*/
+/*----- link hover animation ----*/
+a {
+  text-decoration: none;
+  color: #0b70bd;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #f48f42;
+}
+
+/*---------- FOR REVISION QUESTIONS ----------*/
+details {
+  padding: 8px;
+}
+
+summary {
+  background-color: #aecbeb;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.islog {
+  max-width: 1500px;
+}

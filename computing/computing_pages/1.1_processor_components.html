@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Computing Notes - 1.1</title>
+    </head>
+
+    <body>
+        <p>noted : 06/09/22</p>
+        <div class="headingTitle1"><h1>1.1 Processor Components</h1></div>
+<div class="headingTitle2"><h2>The Central Processing Unit (CPU)</h2></div>
+<p>Is the brain of a computer and contains these parts:</p>
+<ul>
+  <li>Control Unit</li>
+  <li>Arithmetic-Logic Unit</li>
+  <li>Registers</li>
+  <li>Buses</li>
+</ul>
+<div class="headingTitle2"><h2>Control Unit:</h2></div>
+<ul>
+  <li>It is the nuclei of the cpu, coordinates activities of the CPU</li>
+  <li>
+    It sends control signals along the control bus between the CU and other
+    components of the computer
+  </li>
+  <li>It is responsible for the fetch-decode-execute cycle (FDEC)</li>
+</ul>
+<div class="headingTitle2"><h2>Busses:</h2></div>
+<p>
+  Is a series of connectors that transfer signals between internal components<br />
+  They normall contain 8, 16, 32 or 64 lines
+</p>
+<h3>System Bus:</h3>
+<p>Contains 3 busses:</p>
+<table>
+    <tr class="header">
+        <th>Bus</th>
+        <th>Function</th>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>
+            Carries the memory addresses that identify where they dat is being read from or written to
+        </td>
+    </tr>
+
+    <tr>
+      <td>Data</td>
+      <td>
+        Carries the binary 1s and 0s that make up the data being transmitted
+        around the CPU
+      </td>
+    </tr>
+    <tr>
+      <td>Control</td>
+      <td>
+        Carries commands and control signals to and from every coponent of the
+        CPU/computer
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="headingTitle2"><h2>Control Signals:</h2></div>
+<table>
+  <thead>
+    <tr>
+      <th>Signal</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Memory Read</td>
+      <td>
+        Causes data from the addressed location in RAM, to be placed on the data
+        bus
+      </td>
+    </tr>
+    <tr>
+      <td>Memory Write</td>
+      <td>
+        Causes data on the data bus to be written into the addressed location in
+        the RAM
+      </td>
+    </tr>
+    <tr>
+      <td>Bus Request</td>
+      <td>
+        Indicates that a device is requesting use of the data bus
+      </td>
+    </tr>
+    <tr>
+      <td>Bus Grant</td>
+      <td>
+        Indicates that the CPU has granted access to the data bus
+      </td>
+    </tr>
+    <tr>
+      <td>Clock</td>
+      <td>
+        Is a timing pulse used to synchronise operations
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="headingTitle2"><h2>Registers:</h2></div>
+<table>
+  <thead>
+    <tr>
+      <th>Registers</th>
+      <th>Function(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Arithmetic logic Unit (ALU)</td>
+      <td>
+        Performs arithmetic operations such as, add, subtract, mutiply and
+        divide<br />Performs logical operations such as AND, OR NOT, XOR<br />Performs
+        Shift operations such as left or right binary shift
+      </td>
+    </tr>
+    <tr>
+      <td>Accumulator (ACC)</td>
+      <td>
+        Temporarily stores results, as it is faster memory than RAM<br />The
+        single general-purpose register
+      </td>
+    </tr>
+    <tr>
+      <td>Program Counter (PC)</td>
+      <td>
+        Holds the address of the next instruction to execute
+      </td>
+    </tr>
+    <tr>
+      <td>Current Instruction Register (CIR)</td>
+      <td>
+        Holds the current instruction (made up of opcode and operand) being
+        executed
+      </td>
+    </tr>
+    <tr>
+      <td>Memory Address Register (MAR)</td>
+      <td>
+        Holds the address of the memory location of data or an instruction that
+        needs to be fetched or written
+      </td>
+    </tr>
+    <tr>
+      <td>Memory Data Register (MDR)</td>
+      <td>
+        Temporarily stores the data moving between the CPU and RAM
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div class="headingTitle2"><h2>Executing Instructions:</h2></div>
+<p>The CPU has to:</p>
+<ul>
+  <li>temporarily hold current instructions being executed</li>
+  <li>hold addresses of the data and the data itself</li>
+  <li>keep track of the adress of the next instruction</li>
+</ul>
+<div class="headingTitle2"><h2>Fetch-decode-execute Cycle</h2></div>
+
+<p>
+  Processors operate in defined stages used to carrout out program instructions
+</p>
+<h3>Fetch:</h3>
+<ol>
+  <li>
+    The adddress of the next instruction, is copied from the
+    <b>Program counter</b> to the <b>Memory Address Register</b>
+  </li>
+  <li>
+    The instruction held at that address is copied to the
+    <b>Memory Data Register</b>
+  </li>
+  <li>
+    The <b>Program Counter</b> is then incrimented by 1, to prepare for the next
+    cycle
+  </li>
+  <li>
+    The contents of the <b>Memory Data Register</b> is copied to the
+    <b>Current Instruction Register</b> to be executed
+  </li>
+</ol>
+<h3>Decode:</h3>
+<ol>
+  <li>
+    The instruction of the <b>Current Instruction Register</b> is decoded (split
+    into operand and opcode to determine the type of instruction)
+  </li>
+  <li>It is then passed to the <b>Accumulator</b></li>
+</ol>
+<h3>Execute:</h3>
+<ol>
+  <li>
+    The instruction is then executed and the result is held in the
+    <b>accumulator</b> or memory
+  </li>
+</ol>
+<div class="headingTitle1"><h1>Summary</h1></div>
+<p>
+  The CPU is the brain of the CPU and contains the control unit, buses, ALU. and
+  registers. The Control Unit coordinates the activities of the CPU by sending
+  control signals and is responsible for the FDE cycle. Buses are a series of
+  connectors that transfer those signals. Registers are superfast, but small,
+  storages that stores results, data and memory addresses. The FDE cycle uses
+  registers.
+</p>
+<div class="headingTitle1"><h1>Revision Questions</h1></div>
+<details>
+  <summary>What 4 parts make up the CPU?</summary>
+  <p>
+    The CPU is made up of the control unit (CU), busses, the arithmetic loic
+    unit (ALU) and registers.
+  </p>
+</details>
+
+<details>
+  <summary>What 2 things is the control unit responsible for?</summary>
+  <p>
+    The CU is responsible for coordinating the activitites of the CPU, and the
+    fetch-decode-execute cycle (FDEcycle).
+  </p>
+</details>
+
+<details>
+  <summary>How does the CU coordinate the activities of the CPU?</summary>
+  <p>
+    The CU coordinates the activities of the CPU by sending control signals
+    along the control bus between the CU and other components of the computer.
+  </p>
+</details>
+
+<details>
+  <summary>
+    What are the 3 buses that make up the system bus, and what does each do?
+  </summary>
+  <p>
+    The address bus carries memory addresses that direct were the data is being
+    read or written to.<br />The data bus carries the data being transmitted
+    aroung the CPU.<br />The control bus carries control signals to and from
+    every component of the CPU and computer
+  </p>
+</details>
+
+<details>
+  <summary>What are the 5 control signals used to coordinate the CPU?</summary>
+  <p>
+    Memory Read causes data from the addressed location in RAM to be put on the
+    data bus.<br />Memory Write causes data on the data bus to be written into
+    the addressed location in the RAM.<br />Bus Request Indicates that a device
+    is requesting use of the data bus.<br />Bus Grant indiciates that the CPU
+    has granted access to the data bus.<br />The Clock is a timing pulse used to
+    synchonise operations
+  </p>
+</details>
+
+<details>
+  <summary>What are the 5 registeres?</summary>
+  <p>
+    The Accumulator (ACC) temporarily stores results.<br />The program counter
+    (PC) holds the address of the next instruction.<br />The Current Instruction
+    Register (CIR) holds the current instruction (operand and opcode) being
+    executed.<br />The Memory Address Register (MAR) holds the address of the
+    memory location of data that needs fetching or to be written to.<br />The
+    Memory Data Register (MDR) temporarily stores data moving between the CPU
+    and RAM
+  </p>
+</details>
+
+<details>
+  <summary>Describe the fetch stage (steps 1-4) of the FDE cycle.</summary>
+  <p>
+    First, the address of the next instruction is copied from the program
+    counter to the memory address register<br />Then the instruction held at
+    that address is copied to the memory data register<br />Then the program
+    counter is incrimented by 1<br />Finally the contents of the memory data
+    register is copiedfrom the current instruction register to be executed
+  </p>
+</details>
+
+<details>
+  <summary>Describe the decode stage (steps 5-6) of thet FDE cycle.</summary>
+  <p>
+    After the fetch stage, the instruction in the current instruction register
+    is decoded (split into operandand opcode).<br />Next it is passed to to
+    accumulator
+  </p>
+</details>
+
+<details>
+  <summary>Describe the execute stage (step 7) of the FDE cycle.</summary>
+  <p>
+    The instruction is then executed and resultsare stored in the accumulator or
+    in memory
+  </p>
+</details>
+    </body>
+</html>
