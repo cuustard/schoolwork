@@ -150,3 +150,13 @@ summary {
 .islog {
   max-width: 1500px;
 }
+
+.blankTH {
+  background-color: white;
+  border: none;
+}
+
+.marktop {
+  border-bottom: none;
+  border-top: 1px solid black;
+}
