@@ -160,3 +160,8 @@ summary {
   border-bottom: none;
   border-top: 1px solid black;
 }
+
+.markschemeTable {
+  border-left: none;
+  border-top: none;
+}
