@@ -83,8 +83,56 @@ details that seem insignificant at first, but later become significant
 
 |Code |Decription|
 |:----|:---------|
-|Enigma|Something that signifies mystery and keeps audience questioning|
-|Action|Elements of meida products that signify that something is going to happen as a result|
+|Enigma|Element of a media text that signifies mystery and keeps audience questioning|
+|Action|Elements of meida texts that signify that something is going to happen as a result|
 |Symbolic|Any symbol that creates a narrative, is a symbolic code|
-|Semantic|Parts of a media product with a hidden meaning|
-|Cultural||
+|Semantic|Elements of a media text with a hidden meaning|
+|Cultural|Elements of a media text that are only understood by a specific group of people|
+
+
+## Esposition
+exposition provedes info about genre of media through conventional iconographies.  
+DEF - Exposition: basic information needed for the audience to set the narrative. Exposition uses markers  
+DEF - markers: a media language choice which provides info to audiencesquickly and economically
+
+Markers:
+
+- geographical marker - tells location
+- temporal / historical marker - tells the time or era the text is set in
+- generic marker - tells genre of the text
+- character marker - tells info about characters
+
+1. frosty grass (temporal)
+2. london bus (geo)
+3. costume & makeup / set - (historical)
+4. close up of married policemans ring on his finger as he grabs a criminal - (character)
+5. flickering lights - (generic)
+
+
+### What is the exposition
+geo - a street
+hist - present
+generic - christmas
+character - old man has been trying to sell doll
+
+### barthes narrative codes
+
+- enigma - where they going after
+- symbolic - snow, christmas - mcdonalds, happy
+- semantic - love
+- action - doll keeps looking at mcdonalds, so shes gonna go there
+- cultural - christmas
+
+### narrative stages
+linear narrative, todorovs.
+
+### editing techniques
+clean cut, jump cut, 
+
+### levis strauss
+
+toy - human
+happy - sad
+lonely - together
+
+### mise-en-scene
