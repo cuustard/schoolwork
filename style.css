@@ -74,7 +74,7 @@ td {
 /*----- basics -----*/
 table {
   border-collapse: collapse;
-  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
 
   max-width: 2000px;
   width: 100%;
@@ -151,7 +151,12 @@ summary {
   max-width: 1500px;
 }
 
-.blankTH {
+.blank-top-left {
+  background-color: white;
+  border: none;
+}
+
+.blank-top-right {
   background-color: white;
   border: none;
 }
