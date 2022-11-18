@@ -11,3 +11,16 @@ filming began in bristol feb 2021. co production with bbc and amazon prime. Prod
 
 ## Broadcast
 premierd on bbc one and iplayer in uk in oct 2021, then s2 on june 2022
+
+## First part of Ep1
+
+### Costume
+
+### Facial and body
+
+
+
+
+### Pleasures
+Creates visceral pleasure due to the comedic factors, 
+Creates
