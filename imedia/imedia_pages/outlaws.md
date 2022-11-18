@@ -18,9 +18,6 @@ premierd on bbc one and iplayer in uk in oct 2021, then s2 on june 2022
 
 ### Facial and body
 
-
-
-
 ### Pleasures
 Creates visceral pleasure due to the comedic factors, 
 Creates
