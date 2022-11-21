@@ -28,3 +28,4 @@ Joint Venture - when an independent company needs help in the distribution or ex
 vertical integration - the result of a copany being able to produce, distribute and exchange due to subsidiaries or joint ventures.
 hoizontal integration - allows conglomerate copanies to cross promote using their subsidiaries. they would need a joint venture.
 
+## Technological Convergence
