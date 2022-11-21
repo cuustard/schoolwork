@@ -82,9 +82,10 @@ Identity can be created by:
 
 ### Synergy & Cross-Media
 
-Synergy is efficiency and profit that comes from horizontal and vetical intergration in cross media ownership.  
-Synergy is when two or more products are released by the same company simultaneosuly to promote eachother.  
-Synergy is the promotion and sale of a prodcut accross different medias by forging a connection. Conglomerate are formed to create synerg, in order ot cross-promote.
+Digital Media Definitions:  
+Synergy is the efficiency and profit that comes from intergration in cross media ownership.  
+Synergy is when 1 company releases multiple products simultaneosuly to promote eachother.  
+Synergy is the promotion and sale of a prodcut accross different medias by forging a connection. Conglomerate are formed to create synergy, in order to create synergy.
 
 Cross Media Ownership is when a company brances into different media industries.
 For example, Sony branches into film, video games and music
