@@ -93,6 +93,6 @@ For example, Sony branches into film, video games and music
 
 ## Production Techniques uessd in Stranger Things & Love Island Clip
 
-## Targeting Different Audienced
+## Targeting Different Audiences
 
 ## Primary & Secondary research
