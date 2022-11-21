@@ -5,6 +5,7 @@ noted : 11/11/22
 89% of adults (15+) listen to radio. average listen time in a week is 20.6 hours.
 
 Ways to listen to radio
+
 - BAD radio
 - TV
 - websites
@@ -13,7 +14,7 @@ Ways to listen to radio
 - smart speakers (like alexa)
 - clips of radio on other socials
 - podcasts
-  
+
 ## changes to radio
 
 ### Traitional
@@ -25,8 +26,8 @@ Ways to listen to radio
 - more control on smart devices and easier accessibility
 
 ### podcasting
-linked to pre existing things
 
+linked to pre existing things
 
 ## Radio Categories
 
@@ -64,8 +65,10 @@ like
 - funded by staff + volunteers
 
 ## Station Identity
+
 Each station has a specific target audience.  
 Identity can be created by:
+
 - music
 - presenter
 - time broadcast

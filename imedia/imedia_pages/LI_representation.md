@@ -11,6 +11,7 @@ noted : 17/10/22
 In a nutshell, men and women are represented differently in the meida.
 
 ## Judith Butler's Representation Theory
+
 - gender is a performance (use characteristics, traits etc to 'perform' to be a certain way)
 - idea that there are no gender identities behind gender
 - The idea that performativity is not a singular act, but it's repetition and a ritual
