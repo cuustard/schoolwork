@@ -23,4 +23,3 @@ others:
 - specialist software
 - digital marketing, audience
 - digital research
-
