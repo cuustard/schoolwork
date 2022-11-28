@@ -28,3 +28,5 @@ vertical integration - the result of a copany being able to produce, distribute 
 hoizontal integration - allows conglomerate copanies to cross promote using their subsidiaries. they would need a joint venture.
 
 ## Technological Convergence
+idea that overtime, technology has, and will continue to converge into one multi-media device.
+
