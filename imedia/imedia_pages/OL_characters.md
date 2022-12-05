@@ -111,17 +111,21 @@ The Protagnoist is the main character in a narrative; usually the hero.
 The Antagonist is the character who is in opposition to the protagonist; usually the villian.
 
 ## To prepare
+
+### What extent does Propp's character theory relate to The Outlaws?
 main group is heros  
 Ben is princess sometimes  
 no princesss father  
 no false hero  
 Rani can be sidekick sometimes  
-Christian can be Hero  
-  
-  
-
-
-
-### What extent does Propp's character theory relate to The Outlaws?
+Christian can be Hero
 
 ### How importat are character types to narrative and representation?
+Characters drive narrative forward - relationships, binary opposites or todorov
+
+character types allow supports davidguantlette pick n pix. relatable characters
+
+how do stereotypes drive the narrative?
+how do binary opposites drive the narrative?
+how does genre drive the narrative?
+how 
