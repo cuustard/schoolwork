@@ -11,11 +11,11 @@ noted : 22/11/22
 Tv shows are episodes and so have breaks inbetween episodes. This pause creates a stop in the flow. This stop can be used to create cliffhangers (suspense) and used to start a parralel narratives or split up todorovs stages of a narrative into episodes. so each episode can focus on a stage.
 
 ## Why are characters so important to media texts.
-Characters drive the narrative forward.
-uses and gratification - personal identiy - relatable characters
-David Gauntless - pick n mix, audiene uses characters to pick traits to identitfy with
+Characters drive the narrative forward.  
+uses and gratification - personal identiy - relatable characters  
+David Gauntless - pick n mix, audiene uses characters to pick traits to identitfy with  
 
-## Character types
+## Character types (Propp's character theory)
 ### The Hero
 
 - leads the narrative
@@ -29,7 +29,7 @@ David Gauntless - pick n mix, audiene uses characters to pick traits to identitf
 eg the doctor
 
 
-### The sidenick
+### The sidekick
 
 - Supports the hero on their journey.
 - There is a relationship between the helper
@@ -108,4 +108,20 @@ eg that goose from adventure time
 
 ## Characters
 The Protagnoist is the main character in a narrative; usually the hero.  
-The Antagonist is the character who is in opposition to the protagonist; usually the villian.  
+The Antagonist is the character who is in opposition to the protagonist; usually the villian.
+
+## To prepare
+main group is heros  
+Ben is princess sometimes  
+no princesss father  
+no false hero  
+Rani can be sidekick sometimes  
+Christian can be Hero  
+  
+  
+
+
+
+### What extent does Propp's character theory relate to The Outlaws?
+
+### How importat are character types to narrative and representation?
