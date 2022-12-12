@@ -23,8 +23,27 @@ no as there is flashbacks
 each ep sort of has its own arc and narrative strands
 
 ### are there story arcs that run accross the show? what
-
+yes. There's johns business arc. ei each characeter uses money for different way.   
+ben wants money gets chased. all contribute to overall
 
 ### are there obvious codes around which the narrative is structured?
+enigma - bag of money  
+action - rani drivers van and enemies see her in it and take photos  
+symbolic -   
+semantic -   
+cultural - bristol nostalgia  
 
-### 
+### binary oppostes?
+yes. good and bad  
+wrong and right  
+man and woman
+
+### time and space
+is minipulated in the narrative . time jumps, flash forwards and backs.
+
+### expositional markers
+geographical - bristol landmarks tells us in brostol
+temporal - costume and make up, setting and props tell us present
+historical - 21st centary
+generic - 
+character - 
