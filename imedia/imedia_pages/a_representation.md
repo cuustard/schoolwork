@@ -11,29 +11,6 @@ Everything we see in the media is a representation because the media affect or '
 
 Selecting what to show to control a representation.
 
-## Stuart Hall's Representation Theory
-
-Points:
-
-- Representation is the production of meaning through language.<br>Language makes us view something in a specific way.
-- Stereotyping reduces people to a few simple characteristics or traits<br>They tend to occur in inequalities of power. So the less powerfull groups are represente as different.
-
-## David Gauntlett's Representation Theory
-
-Points:
-
-- The media provides us with tools and resources that help us to construct our identities
-- The media are not longer conveys simple messages about male and female identities
-
-## Laura Mulvey's 'Male gaze' Representation Theory
-
-Media is mostly made by men, for men. This means that:
-
-- Men are attractive, women are passive
-- Men dominate a text
-- Women are objectified
-- Women are framed and presented for visual pleasure
-
 ## The Media Framework
 
 ## Stereotypes, countertypes & archetypes

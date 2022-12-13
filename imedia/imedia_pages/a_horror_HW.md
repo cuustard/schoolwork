@@ -1,6 +1,6 @@
 noted : 20/10/22
 
-# Horror FIlms: Creating and reflecting fear
+# Horror Films: Creating and reflecting fear
 
 Codes and conventions I associate with horror genre:
 

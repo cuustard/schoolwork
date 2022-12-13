@@ -2,27 +2,7 @@ noted : 30/09/22
 
 # Genre
 
-## What is genre?
-
-- Chapter 1 - Introduction to genre
-- Chapter 2 - What is genre and it's conventions?
-- Chapter 3 - Concentions; Narative, story & characters
-- Chapter 4 - Conventions; Set, technical & Audio
-- Chapter 5 - Genres
-- Chapter 6 - Sub-genres & Hybrid genres
-- Chapter 7 - TV genres & Video game genres
-- Chapter 8 - SUmmary
-- Chapter 9 - Outro
-
-## Rick Altman
-
-This theorist believed that audiences get different pleasures out of genred texts. The 3 pleasures are as follows:
-
-- Emotional pleasures - does it make the audience happy, sad or nostalgic.
-- Visceral pleasures - gut response such as excitement, fear or laughter.
-- Intellectual puzzles - does the text make the audience think?
-
-## Which genres offer which pleasures?
+## Which genres offer which pleasures from Rick Altman's genre theory?
 
 | Emotional        | Visceral              | Intellectual     |
 | :--------------- | :-------------------- | :--------------- |
@@ -35,14 +15,6 @@ This theorist believed that audiences get different pleasures out of genred text
 |                  | Stand-up & Chat shows | Science & Nature |
 |                  | Thriller              | British          |
 |                  |                       | US               |
-
-## Steve Neale
-
-He argued that genres are doinated by repetition, difference, variation andchange.  
-He also said that genres are important to market texts.
-
-Repetition is a genre being used again and again.
-Difference is the variation of a genre.
 
 ## Analysis
 
