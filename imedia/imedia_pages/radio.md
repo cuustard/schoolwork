@@ -4,75 +4,41 @@ noted : 11/11/22
 
 89% of adults (15+) listen to radio. average listen time in a week is 20.6 hours.
 
-Ways to listen to radio
+### Ways to listen to the radio
 
-- BAD radio
-- TV
-- websites
-- apps (like bbc sounds)
-- FM / AM radio (old school radio)
-- smart speakers (like alexa)
-- clips of radio on other socials
-- podcasts
+- DAB Radio (digital audio broadcasting)
+- FM / AM radios (like old school radios)
+- Applications (like BBC sounds)
+- Websites (like BBC sounds)
+- Televisions (channels that televise radio)
+- Smart devices (like alexa)
 
-## changes to radio
+### 3 Changes to radio
 
-### Traitional
+- Traditional - FM/AM services are still avaliable in the UK but many stations just promote the use of digital radio
+- Interactive - describes the ease of access and control of radio on smart devices
+- Podcasting - Popularised by iPods, consisting of episodic shows. These can be linked to pre existing radio shows or broadcasts.
 
-- fm / am services are still available in the Uk, but most promote digital radio
+### The 6 radio categories
 
-### interactive
+| Title                     | Description                                                | Example                        |
+| :------------------------ | :--------------------------------------------------------- | :----------------------------- |
+| BBC Radio                 | Funded by the license fee and does not air commercials     | BBC Radio 1                    |
+| National Commercial Radio | Broadcasts nationally and gains funds from commercials     | Classic FM                     |
+| National Brands           | Regional stations owned by 1 network group                 | Capital London                 |
+| Independent Local Radio   | Specific to regions so not owned by a network group        | Radio Victory (for Portsmouth) |
+| Community Radio           | Funded by community, so do not aim to make profit          |                                |
+| Hospital Radio            | Broadcasts in hospitals, so funded by staff and volunteers |                                |
 
-- more control on smart devices and easier accessibility
+### Radio Identifiers
 
-### podcasting
-
-linked to pre existing things
-
-## Radio Categories
-
-### BBC Radio
-
-- Funded by liscence fee
-- no adverts
-
-like, bbc 1, 2, 3, 4,etc
-
-### national commercial radio
-
-- national radio
-- funding from adverets
-
-like heart, capital
-
-### national brands
-
-- regional stations owned by 1 network group like capital london
-
-like
-
-### Independent Local Radio
-
-- specific to a certain region not owned by a network group
-
-### community radio
-
-- not for profit radio funded by the local community
-
-### hospital radio
-
-- boadcasted in hospitals
-- funded by staff + volunteers
-
-## Station Identity
-
-Each station has a specific target audience.  
+Radio stations can be identified by station identities. Each station has a specific identitiy which is targeted at a particular audience.  
 Identity can be created by:
 
-- music
-- presenter
-- time broadcast
-- discussion focused on particular topics
-- contributors
-- drama / plays
-- documentaries
+- Music
+- Presenter
+- Time Broadcasted
+- Focused Discussions
+- Contributors
+- Drama/Plays
+- Documentaries
