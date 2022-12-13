@@ -43,3 +43,14 @@ Synergy is the promotion and sale of a prodcut accross different medias by forgi
 
 Cross Media Ownership is when a company brances into different media industries.  
 For example, Sony branches into film, video games and music
+
+
+### Bbenefits of tech to media production
+
+- efficiency
+- collaboration
+- commincation
+- resource accessibility
+- specialist software
+- digital marketing, audience
+- digital research

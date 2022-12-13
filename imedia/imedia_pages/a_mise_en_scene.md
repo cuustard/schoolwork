@@ -48,7 +48,7 @@ Front or Back lighting makes the subject more innocent or good.
 Relates to the positioning of elements and subjects in the frame (camera shots, angles and movement)
 
 ## Mise-en-scene Textual Analysis of a clip
-
+## Plan
 | Point                                                      | Example from text using mise-en-scene                                                              | Explanation                                                                                                                                    |
 | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | This is a realistic clip                                   | Settings & Props:<br>Police station<br>fire alarm<br>led lights<br>lock & key<br>electronic devies | Police stations had electronic devices to aid in policing in the 20th and 21st century. This aids verisimilitude.                              |
@@ -61,7 +61,7 @@ verisimilitude is how real the world of the story or narrative of a fiction medi
 
 diegetic world - fictional world (time and place) of the narrative
 
-# Homework
+## Execution
 
 The settings & props make this clip's verisimilitude realistic. This is shown by the electronic devices, such as computers, printers, phones, watches, etc. Electronic devices were not massively consumed by enforcement agencies until the late 20th, and the 21st century. This enforces the realism of the clip.
 

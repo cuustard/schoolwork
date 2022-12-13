@@ -9,13 +9,7 @@ Commercial Public Broadcasters, like most ITV channels, aims to provide content 
 
 Is the broadcasting of television programs and radio programs by privately owned corporate media. They make money from adverts.
 
-## ...
+## ITV as a PSB
 
 ITV is a PSB. But they do not recieve state funding like the BBC. So they make money from adverts.  
 Popular shows like Love Island fund the entirety of ITV as this is when the most profit from ads come in.
-
-## questions
-
-1. When was ITV first launche?
-   -
-2. What percentage of programs from indep
