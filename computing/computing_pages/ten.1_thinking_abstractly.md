@@ -1,6 +1,6 @@
 noted : 22/11/22
 
-# Thinking Abstractlly
+# Computational Thinking 
 
 Computationally Thinking: The ability to logically think about a problem mand apply techniques to solve it.  
 This involves:
