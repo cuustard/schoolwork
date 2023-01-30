@@ -8,3 +8,6 @@ Debugging facilitites:
 - Watch - setting a watch on a vaviable so that its value is displayed each time it changes
 - Step through - act of steppping through a program one line at a time
 - Trace - tracing the execution of a program
+
+## Algorithms
+An algorithm is a set of instructions used to solve a speific problem.  
