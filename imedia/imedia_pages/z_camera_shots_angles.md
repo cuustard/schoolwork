@@ -7,20 +7,20 @@ noted : 05/09/22
 There are 12 main camera shots needed to know for OCR Digital Media C-TEC.  
 They are as follows:
 
-| Shot               | Description                                                                 |
-| :----------------- | :-------------------------------------------------------------------------- |
-| Establishing Shot  | Sets up context for scene ahead<br/>Shows where action will be taking palce |
-| Extreme Long Shot  | Frames subject from an extreme distance to focus on surroundings            |
-| Long Shot          | Frames subject from a long distance and focuses on surroundings             |
-| Medium Long Shot   | Knees to head                                                               |
-| Medium Shot        | Waist to head                                                               |
-| Medium Close Up    | Shoulder to head                                                            |
-| Close Up           | ..of face, to show emotion <br/>..of object, to show importance             |
-| Big Close Up       | Chin to forehead<br/>Used to show emotion                                   |
-| Extreme Close Up   | Highlights certain part of subject                                          |
-| Two Shot           | Has 2 subjects in it                                                        |
-| Over-Shoulder Shot | Used to show conversation                                                   |
-| Point of View      | Places audience in charactesr shoes                                         |
+| Shot               | Description                             |
+| :----------------- | :-------------------------------------- |
+| Establishing Shot  | Sets up context for scene ahead         |
+| Extreme Long Shot  | Frames subject from an extreme distance |
+| Long Shot          | Frames subject from a long distance     |
+| Medium Long Shot   | Knees to head                           |
+| Medium Shot        | Waist to head                           |
+| Medium Close Up    | Shoulder to head                        |
+| Close Up           | Of face                                 |
+| Big Close Up       | Chin to forehead                        |
+| Extreme Close Up   | Highlights certain part of subject      |
+| Two Shot           | Has 2 subjects in it                    |
+| Over-Shoulder Shot | Used to show conversation               |
+| Point of View      | Places audience in charactesr shoes     |
 
 ## Camera Angles
 
