@@ -51,3 +51,5 @@ next
 | 9 |  4  |
 | 6 |  3  |
 | 3 |  1  |
+
+### while... endwhile
