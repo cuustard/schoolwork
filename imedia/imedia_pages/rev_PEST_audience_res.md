@@ -20,3 +20,6 @@ Overall, a PEST analysis is a valuable tool for media planners to better underst
 learn what the audience wants - specifically - from audience feedback of competitors products
 fill the gap in the market -
 find out who your audience is - specific demographic - can then create better marketing.
+
+# Overall:
+PEST: Political, Economic, Sociocultural, and Technological factors affecting an org's operations. Audience research helps fill market gaps and understand target demographics.
