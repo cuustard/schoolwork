@@ -33,7 +33,9 @@ reach memory limitations but no stack overflow.
 
 ## summing a list of numbers
 
-``` numbers = [3, 6, 2, 8, 1] ```
-``` total = 0 ```
-``` for i in range(len(numbers)):```
-```     total += numbers[i] ```
+````
+numbers = [3, 6, 2, 8, 1]
+total = 0
+for i in range(len(numbers)):
+     total += numbers[i]
+````
