@@ -27,3 +27,12 @@ The stopping condition is required otherwise the routine never 'unwinds'.
 The return address is put onto the call stack each time a routine is called.  
 The recursive routine can only be called a certain number of times before the stack overflows, even with a stopping condition.
 
+### limitations of iteration
+
+reach memory limitations but no stack overflow.  
+
+## summing a list of numbers
+
+``` numbers = [3, 6, 2, 8, 1] ```
+``` for i in range(len(numbers)):```
+```     total += numbers[i] ```
