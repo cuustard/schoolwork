@@ -39,3 +39,10 @@ total = 0
 for i in range(len(numbers)):
      total += numbers[i]
 ````
+
+## REcursive vs iterative
+
+recursve more likely to give stack overflow.  
+recursive less lines of code.  
+iteration easier to follow.  
+______ executes faster.
