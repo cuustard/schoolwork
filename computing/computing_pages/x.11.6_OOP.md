@@ -50,3 +50,31 @@ By defining an object you have created the blueprint for it. But you have not in
 ## Setters and getters
 
 We need to set or find value of attributes.
+
+# Summary
+
+|Term|Definition|
+|:---|:---------|
+|Class|Template for object which defines it's attributes and methods|
+|Object|An instance of a class|
+|Constructor|The method used to create a new object in a class|
+|Instantiation|Crearting an instance of an objecet|
+
+## Inheritance
+in OOP you can define a child class which inherits the attributes and methods of the parent class.  
+EG 'pet' class, with children of cat and dog. Each child class can then have more unique attributes and methods.
+
+```
+Class Puppy inherits Dog
+    private shoesChewed
+    shoesChewed = 0
+```
+
+### A puppy constructor
+```
+Class Puppy inherits Dog
+    private showsChewed= 0
+    public procedure new (myName, myColour, myDob)
+        super.new(myName, myColour)
+        dob = myDob
+```
