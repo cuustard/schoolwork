@@ -80,4 +80,13 @@ Class Puppy inherits Dog
 ```
 
 ## Polymorphism
-Polymorphism is when objects are processed differently depending on their class.
+Polymorphism is when objects are processed differently depending on their class.  
+EG may have same methods but different data so output is differet.
+
+## Advantages of OOP
+
+|Advantage|explain|
+|:---|:---|
+|Code reuse|classes created in 1 program can be saved in a library and reused in other programs|
+|Encapsulation reduces code complexity|hidden from user so they dont change it accidentally|
+|Software maintenance|Object oriented prorams are easier to modify and maintain|
