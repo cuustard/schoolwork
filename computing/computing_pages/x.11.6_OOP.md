@@ -78,3 +78,6 @@ Class Puppy inherits Dog
         super.new(myName, myColour)
         dob = myDob
 ```
+
+## Polymorphism
+Polymorphism is when objects are processed differently depending on their class.
