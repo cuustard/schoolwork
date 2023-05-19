@@ -4,7 +4,7 @@ noted : 20/04/2023
 
 ## Starter
 
-### Mise-en-scene
+### Mise-en-scène
 
 - settings an props
 - costume and make up
@@ -16,7 +16,7 @@ noted : 20/04/2023
 
 - Camera angles - birds eye view, super high, high, regular, low, super low, worms-eye view
 - Camera shots - EST, extremet long, long medium long, medium, medium-cose up, close up, big close up, extreme close up
-- Camera movement - panning, tilt, track, 
+- Camera movement - panning, tilt, track,
 
 ### Editing
 

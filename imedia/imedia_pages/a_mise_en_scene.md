@@ -1,8 +1,8 @@
 noted : 08/09/22
 
-# Mise-en-scene
+# Mise-en-scène
 
-Mise-en-scene describes everything that the audience can see in the frame and that everything is there for a reason.  
+Mise-en-scène describes everything that the audience can see in the frame and that everything is there for a reason.  
 This includes:
 
 - Props & Setting
@@ -47,11 +47,12 @@ Front or Back lighting makes the subject more innocent or good.
 
 Relates to the positioning of elements and subjects in the frame (camera shots, angles and movement)
 
-## Mise-en-scene Textual Analysis of a clip
+## Mise-en-scène Textual Analysis of a clip
+
 ## Plan
 
-| Point                      | Example from text using mise-en-scene | Explanation | 
-| :------------------------- | :------------------------------------ | :---------- |
+| Point                                                      | Example from text using Mise-en-scène                                                              | Explanation                                                                                                                                    |
+| :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
 | This is a realistic clip                                   | Settings & Props:<br>Police station<br>fire alarm<br>led lights<br>lock & key<br>electronic devies | Police stations had electronic devices to aid in policing in the 20th and 21st century. This aids verisimilitude.                              |
 | This enforces verisimilitude.                              | Costume, Hair & Make-up:<br>makeup<br>high-vis<br>suit                                             | Clothing styles and products suggest that this is a middle class location, 20th century. This aids in the verisimilitude of its genre          |
 |                                                            | Facial Expressions & Body Language:                                                                |                                                                                                                                                |
