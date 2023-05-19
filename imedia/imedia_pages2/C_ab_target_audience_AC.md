@@ -21,17 +21,17 @@ noted : 18/05/23
 Lanuched in 1988 as TV adverts featuring numerous celebritites and athletes.  
 Later expanded and released in print, digital, and social media forms.
 
-| Target Audience                                  | Their lifestyle                                                 | Their interests?                                        |
-| :----------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------ |
-| 13-34<br>Male (mostly)<br>C2 or higher<br>Global | Sports-oriented<br>fittness/health oriented<br>Fashion oriented | Running<br>Basketball<br>Football<br>Fitness<br>Fashion |
+| Target Audience                                                                     | Their lifestyle                                                 | Their interests                                         |
+| :---------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------ |
+| 13 to 34 year-olds<br>Male (mostly)<br>C2 or higher social-economic level<br>Global | Sports-oriented<br>fittness/health oriented<br>Fashion oriented | Running<br>Basketball<br>Football<br>Fitness<br>Fashion |
 
 ### Coca-Cola's "Share a Coke" Campaign
 
 Launched in 2011 as print advertisements, social media, and kiosks.  
 Later expanded into TV adverts, online ads, influencer collabs.
 
-| Target Audience                                                          | Their lifestyle                                                         | Their interests?                              |
-| :----------------------------------------------------------------------- | :---------------------------------------------------------------------- | :-------------------------------------------- |
-| 16-34<br>Both sexes<br>All income levels<br>Urban and suburban locations | Social-media active<br>Relationship-oriented<br>Active in community<br> | Music<br>Sports<br>Trabel<br>Fashion<br>Food< |
+| Target Audience                                                                      | Their lifestyle                                                         | Their interests                              |
+| :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :------------------------------------------- |
+| 16 to 34 year-olds<br>Both sexes<br>All social-economic levels<br>Sub/urban location | Social-media active<br>Relationship-oriented<br>Active in community<br> | Music<br>Sports<br>Trabel<br>Fashion<br>Food |
 
 ### Apple's "Think Different" Campaign
