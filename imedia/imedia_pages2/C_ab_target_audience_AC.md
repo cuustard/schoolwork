@@ -15,3 +15,23 @@ noted : 18/05/23
 | Brand Awareness | "Just Do It" - Nike       | Empowering slogan that motivates consumers                                                                    | Associated the brand with determination and empowered athletes |
 | Profit          | "Share a Coke"            | create a sense of personal connection and encourage consumers to share their Coca-Cola experience with others | Increased sales and customer engagement                        |
 | Re-brand        | "Think Different" - Apple | Transition from Apple Computer Inc. to Apple Inc.                                                             | Communicated a shift in brand identity and product offerings   |
+
+### Nike's "Just Do It" Campaign
+
+Lanuched in 1988 as TV adverts featuring numerous celebritites and athletes.  
+Later expanded and released in print, digital, and social media forms.
+
+| Target Audience                                  | Their lifestyle                                                 | Their interests?                                        |
+| :----------------------------------------------- | :-------------------------------------------------------------- | :------------------------------------------------------ |
+| 13-34<br>Male (mostly)<br>C2 or higher<br>Global | Sports-oriented<br>fittness/health oriented<br>Fashion oriented | Running<br>Basketball<br>Football<br>Fitness<br>Fashion |
+
+### Coca-Cola's "Share a Coke" Campaign
+
+Launched in 2011 as print advertisements, social media, and kiosks.  
+Later expanded into TV adverts, online ads, influencer collabs.
+
+| Target Audience                                                          | Their lifestyle                                                         | Their interests?                              |
+| :----------------------------------------------------------------------- | :---------------------------------------------------------------------- | :-------------------------------------------- |
+| 16-34<br>Both sexes<br>All income levels<br>Urban and suburban locations | Social-media active<br>Relationship-oriented<br>Active in community<br> | Music<br>Sports<br>Trabel<br>Fashion<br>Food< |
+
+### Apple's "Think Different" Campaign
