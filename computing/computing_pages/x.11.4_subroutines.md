@@ -12,6 +12,8 @@ A function returns value(s).
 
 Programming languages have built in functions to perform common tasks.
 
+Like random, and math.
+
 ### Library subroutines
 
 Programming languages have libraries of pre-defined subroutines.  
@@ -31,16 +33,18 @@ An arguments is the value that is passed into the subroutine via that variable.
 In languages such as python, arguments are passed by value.  
 This means that the value of the argument in the calling statement is copied to the variable parameter in the subroutine.
 
-    #define procedure
-    procedure multiply(x, y)
-        z = x * y
-        print(z)
-    endprocedure
+```
+#define procedure
+procedure multiply(x, y)
+    z = x * y
+    print(z)
+endprocedure
 
-    #calling procedure
-    num1 = 10
-    num2 = 5
-    multiply(num1, num2)
+#calling procedure
+num1 = 10
+num2 = 5
+multiply(num1, num2)
+```
 
 In this example, the arguments in the calling statement (10 and 5) are copied to the variables in the paramter in the subroutine (x and y).
 
@@ -59,19 +63,23 @@ Subroutines can have their own variables. These are called local variables and c
 Global variables are defined in the main program and can therefore be passed as an argument into any subroutine.
 
 ### Scope of Variables
+
 The scope of a local varialbe is the subroutine in which it is declared.  
 So in the aove example, the variable 'z''s scope is the subroutine 'multiply'.
 
 ### Advantages of Local Variables
+
 As the variables are local to a subroutine, they can be implemented into other programs.  
 Furthermore, you can't accidentally change a variable in the main program that is used in a subroutine.
 
 ## Modular Programming
-Means breaking down major tasks into smaller sub-tasks.  Each sub-tasks may be further broken down until each 'module' performs a single function.
+
+Means breaking down major tasks into smaller sub-tasks. Each sub-tasks may be further broken down until each 'module' performs a single function.
 
 ### Advantages of modular programming
-- Programs are more easily and quickly written.  
-- Large programs are broken down into sub-tasks that are easiekr to manage and program.  
+
+- Programs are more easily and quickly written.
+- Large programs are broken down into sub-tasks that are easiekr to manage and program.
 - Each module can be individually tested.
 - Modules can be re-used in a program
 - Large programs are easier to debig and maintain

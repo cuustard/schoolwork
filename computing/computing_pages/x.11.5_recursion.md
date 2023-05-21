@@ -4,7 +4,9 @@ noted : 20/03/2023
 
 ## Factorial Recursion
 
-``` n! = n x (n-1)! ```
+```
+n! = n x (n-1)!
+```
 
 ## How does it work?
 
