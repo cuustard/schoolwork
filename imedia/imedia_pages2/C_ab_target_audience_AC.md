@@ -35,3 +35,10 @@ Later expanded into TV adverts, online ads, influencer collabs.
 | 16 to 34 year-olds<br>Both sexes<br>All social-economic levels<br>Sub/urban location | Social-media active<br>Relationship-oriented<br>Active in community<br> | Music<br>Sports<br>Trabel<br>Fashion<br>Food |
 
 ### Apple's "Think Different" Campaign
+
+Launched in 1997 as TV adverts, print (newspapers, billboards, magazines, posters), digitally (on their site).  
+It then advertised through special events like the 1998 Winter olympics.
+
+| Target Audience                                                                      | Their lifestyle                                                         | Their interests                              |
+| :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :------------------------------------------- |
+| 20 40 year-olds<br>Both sexes<br>C1 or higher social-economic level<br>Global | Tech-enthusiasts<br>Creataive<br>Entrepreneurs<br> | Tech<br>Art & Design<br>Business<br>Education<br>travel |
