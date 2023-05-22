@@ -8,9 +8,21 @@ noted : 20/03/2023
 n! = n x (n-1)!
 ```
 
+The routine:
+
+```
+procedure calc(n)
+     if n== 0 then
+          factorial = 1
+     else
+          factorial = n * calc(n - 1)
+     print(factorial)
+endprocedure
+```
+
 ## How does it work?
 
-Each time a subroutine is called, the return address, parameter and local variables, are pushed onto the stack.  
+Each time a subroutine is called, the return address, parameter and local variables, are pushed onto the stack.
 
 ## Essential characteristics
 
@@ -31,20 +43,20 @@ The recursive routine can only be called a certain number of times before the st
 
 ### limitations of iteration
 
-reach memory limitations but no stack overflow.  
+reach memory limitations but no stack overflow.
 
 ## summing a list of numbers
 
-````
+```
 numbers = [3, 6, 2, 8, 1]
 total = 0
 for i in range(len(numbers)):
      total += numbers[i]
-````
+```
 
 ## REcursive vs iterative
 
 recursve more likely to give stack overflow.  
 recursive less lines of code.  
 iteration easier to follow.  
-______ executes faster.
+**\_\_** executes faster.
