@@ -44,15 +44,13 @@ OUTPUT calc(6)
 | 5   |        | 5 * 24      |       |
 | 6   |        | 6 * 120     | 720   |
 
-## How does it work?
-
-Each time a subroutine is called, the return address, parameter and local variables, are pushed onto the stack.
+Each time the subroutine is called, the return address, parameter and local variables, are pushed onto the stack.  
 
 ## Essential characteristics
 
 3 essential characteristics:
 
-- a stopping condition included which when met means that the routine will not call itself and will 'unwind'
+- a stopping condition which ensures that a routine will not call itself and will instead 'unwind'
 - the routine must call itself
 - the stopping condition must be reach after a finite number of calls
 
@@ -83,4 +81,4 @@ for i in range(len(numbers)):
 recursve more likely to give stack overflow.  
 recursive less lines of code.  
 iteration easier to follow.  
-**\_\_** executes faster.
+ executes faster.
