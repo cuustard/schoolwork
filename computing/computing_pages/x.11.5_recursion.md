@@ -28,23 +28,23 @@ n <-- 6
 OUTPUT calc(6)
 ```
 
-| n   | n == 0 | factorial   | print |
-| :-- | :----- | :---------- | :---- |
-| 6   | False  | 6 * calc(5) |       |
-| 5   |        | 5 * calc(4) |       |
-| 4   |        | 4 * calc(3) |       |
-| 3   |        | 3 * calc(2) |       |
-| 2   |        | 2 * calc(1) |       |
-| 1   |        | 1 * calc(0) |       |
-| 0   | True   | 1           |       |
-| 1   | False  | 1 * 1       |       |
-| 2   |        | 2 * 1       |       |
-| 3   |        | 3 * 2       |       |
-| 4   |        | 4 * 6       |       |
-| 5   |        | 5 * 24      |       |
-| 6   |        | 6 * 120     | 720   |
+| n   | n == 0 | factorial    | print |
+| :-- | :----- | :----------- | :---- |
+| 6   | False  | 6 \* calc(5) |       |
+| 5   |        | 5 \* calc(4) |       |
+| 4   |        | 4 \* calc(3) |       |
+| 3   |        | 3 \* calc(2) |       |
+| 2   |        | 2 \* calc(1) |       |
+| 1   |        | 1 \* calc(0) |       |
+| 0   | True   | 1            |       |
+| 1   | False  | 1 \* 1       |       |
+| 2   |        | 2 \* 1       |       |
+| 3   |        | 3 \* 2       |       |
+| 4   |        | 4 \* 6       |       |
+| 5   |        | 5 \* 24      |       |
+| 6   |        | 6 \* 120     | 720   |
 
-Each time the subroutine is called, the return address, parameter and local variables, are pushed onto the stack.  
+Each time the subroutine is called, the return address, parameter and local variables, are pushed onto the stack.
 
 ## Essential characteristics
 
