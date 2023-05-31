@@ -11,7 +11,6 @@ noted : 26/05/23
 - to greaten coke sales.
 - only 50% of australinas had tried coke
 
-
 </details>
 
 <details>
@@ -51,18 +50,21 @@ noted : 26/05/23
 
 ## Advertising Messages
 
-|Message|Elements|
-|:------|:-------|
-|Emotional Appeal| fear, humour, please, to capture attention|
-|Value proposition|good reason to use the product or service|
-|Slogan|unites campaign in the mind of the audience|
+| Message           | Elements                                    |
+| :---------------- | :------------------------------------------ |
+| Emotional Appeal  | fear, humour, please, to capture attention  |
+| Value proposition | good reason to use the product or service   |
+| Slogan            | unites campaign in the mind of the audience |
 
 ### Propositional Messages
 
-|Message|Elements|
-|:------|:-------|
-|Establishing a common ground|audience trusts the product|
-|Fulfilling a need|rather than wanting it, audience needs it|
-|Solution to a problem|buying a product will solve your problem|
-|Offering a benefit|Buy product and you will be: beautiful, fitter, thinner, happier|
+| Message                      | Elements                                                         |
+| :--------------------------- | :--------------------------------------------------------------- |
+| Establishing a common ground | audience trusts the product                                      |
+| Fulfilling a need            | rather than wanting it, audience needs it                        |
+| Solution to a problem        | buying a product will solve your problem                         |
+| Offering a benefit           | Buy product and you will be: beautiful, fitter, thinner, happier |
 
+## Homework Task: Visual guide to Apple's "Shot on Iphone" campaign
+
+![Visual Page](../imedia_images/shot%20on%20iphone%20research.svg)

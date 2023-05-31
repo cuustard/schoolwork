@@ -4,6 +4,7 @@ noted : 03/05/2023
 
 bundle data and mehods to put them into library so we can import later.  
 Benefits:
+
 - Modular
 - pluggable,
 - protected
@@ -20,22 +21,23 @@ A class may implement an abstract data type such as an array or fraction, or a m
 
 A class defines the attributes (properties) and methods(functions).
 
-|Class|Attributes|Methods|
-|:---|:----|:----|
-|Car|color  speed  weight|brake  go|
-|dog | color  size  cost| bark  jump|
+| Class | Attributes         | Methods   |
+| :---- | :----------------- | :-------- |
+| Car   | color speed weight | brake go  |
+| dog   | color size cost    | bark jump |
 
 ### Abstract diagram of a class
 
-|class|
-|:---|
-|attributes|
-|methods|
+| class      |
+| :--------- |
+| attributes |
+| methods    |
 
 ## Public and Private
+
 Attributes are normally private.  
-Methods are normally public.  
-  
+Methods are normally public.
+
 This is to ensure that the attributes cannot be changed execpt by executing a method.
 
 ## Encapsulation and Data Hiding
@@ -53,14 +55,15 @@ We need to set or find value of attributes.
 
 # Summary
 
-|Term|Definition|
-|:---|:---------|
-|Class|Template for object which defines it's attributes and methods|
-|Object|An instance of a class|
-|Constructor|The method used to create a new object in a class|
-|Instantiation|Crearting an instance of an objecet|
+| Term          | Definition                                                    |
+| :------------ | :------------------------------------------------------------ |
+| Class         | Template for object which defines it's attributes and methods |
+| Object        | An instance of a class                                        |
+| Constructor   | The method used to create a new object in a class             |
+| Instantiation | Crearting an instance of an objecet                           |
 
 ## Inheritance
+
 in OOP you can define a child class which inherits the attributes and methods of the parent class.  
 EG 'pet' class, with children of cat and dog. Each child class can then have more unique attributes and methods.
 
@@ -71,6 +74,7 @@ Class Puppy inherits Dog
 ```
 
 ### A puppy constructor
+
 ```
 Class Puppy inherits Dog
     private showsChewed= 0
@@ -80,13 +84,14 @@ Class Puppy inherits Dog
 ```
 
 ## Polymorphism
+
 Polymorphism is when objects are processed differently depending on their class.  
 EG may have same methods but different data so output is differet.
 
 ## Advantages of OOP
 
-|Advantage|explain|
-|:---|:---|
-|Code reuse|classes created in 1 program can be saved in a library and reused in other programs|
-|Encapsulation reduces code complexity|hidden from user so they dont change it accidentally|
-|Software maintenance|Object oriented prorams are easier to modify and maintain|
+| Advantage                             | explain                                                                             |
+| :------------------------------------ | :---------------------------------------------------------------------------------- |
+| Code reuse                            | classes created in 1 program can be saved in a library and reused in other programs |
+| Encapsulation reduces code complexity | hidden from user so they dont change it accidentally                                |
+| Software maintenance                  | Object oriented prorams are easier to modify and maintain                           |
