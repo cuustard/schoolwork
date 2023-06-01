@@ -4,10 +4,9 @@
 
 ```
 def main():
-    curr_value = int(input("Enter a number: "))
-    while curr_value < 100:
-        curr_value = curr_value * 2
-        print(curr_value)
+    for i in range(10):
+        print(10-i)
+    print("Liftoff!")
 
 if __name__ == '__main__':
     main()
