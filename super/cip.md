@@ -10,9 +10,9 @@ This is an online course that I applied for and got accepted onto (15% acceptanc
 
 | Week        | The Task                                                    | Difficulty for me |
 | :---------- | :---------------------------------------------------------- | :---------------- |
-| Application | [Warmup](cipTasks/aa_warmup.md)                             | 1/5               |
-| Application | [Karel's Home](cipTasks/ab_karels_home.md)                  | 1/5               |
-| Application | [Piles](cipTasks/ac_piles.md)                               | 1/5               |
+| apl | [Warmup](cipTasks/aa_warmup.md)                             | 1/5               |
+| apl | [Karel's Home](cipTasks/ab_karels_home.md)                  | 1/5               |
+| apl | [Piles](cipTasks/ac_piles.md)                               | 1/5               |
 | 1           | [Jigsaw Karel](cipTasks/ad_jigsaw_karel.md)                 | 1/5               |
 | 1           | [2023 Karel](cipTasks/ae_2023_karel.md)                     | 1/5               |
 | 1           | [Stone Mason Karel](cipTasks/af_stone_mason_karel.md)       | 2/5               |
