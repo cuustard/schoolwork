@@ -10,8 +10,8 @@ This is an online course that I applied for and got accepted onto (15% acceptanc
 
 | Week        | The Task                                                    | Difficulty for me |
 | :---------- | :---------------------------------------------------------- | :---------------- |
-| Application | [Warmup](cipTasls/aa_warmup.md)                             | /5                |
-| Application | [Karel's Home](cipTasls/ab_karels_home.md)                  | /5                |
+| Application | [Warmup](cipTasks/aa_warmup.md)                             | /5                |
+| Application | [Karel's Home](cipTasks/ab_karels_home.md)                  | /5                |
 | Application | [Piles](cipTasks/piles.md)                                  | /5                |
 | 1           | [Jigsaw Karel](cipTasks/ad_jigsaw_karel.md)                 | /5                |
 | 1           | [2023 Karel](cipTasks/ae_2023_karel.md)                     | /5                |
@@ -27,4 +27,4 @@ This is an online course that I applied for and got accepted onto (15% acceptanc
 | 4           | [Khansole Academy](cipTasks/ao_khansole_academy.md)         | /5                |
 | 4           | [Draw Flag](cipTasks/ap_draw_flag.md)                       | /5                |
 | 5           | [Quilt](cipTasks/aq_quilt.md)                               | /5                |
-| 6           | [Baby](cipTasks/ar_baby_snake.md)                           | /5                |
+| 6           | [Baby Snake](cipTasks/ar_baby_snake.md)                     | /5                |
