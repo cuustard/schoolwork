@@ -1,6 +1,6 @@
 # Hello Name
 
-## The Code
+## My Code
 
 ```
 def main():

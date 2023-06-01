@@ -1,6 +1,6 @@
 # Random Numbers
 
-## The Code
+## My Code
 
 ```
 import random

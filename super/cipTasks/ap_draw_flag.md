@@ -1,6 +1,6 @@
 # Draw Flag
 
-## The Code
+## My Code
 
 ```
 from graphics import Canvas

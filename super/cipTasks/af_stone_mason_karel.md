@@ -1,6 +1,6 @@
 # Stone Mason Karel
 
-## The Code
+## My Code
 
 ```
 from karel.stanfordkarel import *

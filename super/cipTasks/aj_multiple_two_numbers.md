@@ -1,6 +1,6 @@
 # Multiply Two Numbers
 
-## The Code
+## My Code
 
 ```
 def main():

@@ -1,6 +1,6 @@
 # Joke Bot
 
-## The Code
+## My Code
 
 ```
 PROMPT = "What do you want? "

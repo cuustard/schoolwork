@@ -1,6 +1,6 @@
 # Quilt
 
-## The Code
+## My Code
 
 ```
 from graphics import Canvas
@@ -19,7 +19,7 @@ def main():
     draw_square_patch(canvas, PATCH_SIZE, PATCH_SIZE)
     draw_circle_patch(canvas, PATCH_SIZE*2,PATCH_SIZE)
     draw_square_patch(canvas, PATCH_SIZE*3, PATCH_SIZE)
-    
+
 def draw_circle_patch(canvas, start_x, start_y):
     canvas.create_oval(start_x, start_y, start_x + PATCH_SIZE, start_y + PATCH_SIZE, "salmon")
 
@@ -28,7 +28,7 @@ def draw_square_patch(canvas, start_x, start_y):
     end_y = start_y + PATCH_SIZE
     inset = 20
     canvas.create_rectangle(start_x, start_y, end_x, end_y, 'purple')
-    canvas.create_rectangle(start_x+inset, start_y+inset, 
+    canvas.create_rectangle(start_x+inset, start_y+inset,
         end_x-inset, end_y-inset, 'white')
 
 if __name__ == '__main__':

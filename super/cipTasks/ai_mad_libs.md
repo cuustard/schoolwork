@@ -1,6 +1,6 @@
 # Mad Libs
 
-## The Code
+## My Code
 
 ```
 WIZARD = 'Karel'

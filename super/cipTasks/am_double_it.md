@@ -1,6 +1,6 @@
 # Double It
 
-## The Code
+## My Code
 
 ```
 def main():

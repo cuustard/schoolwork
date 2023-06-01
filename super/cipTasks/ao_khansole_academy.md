@@ -1,6 +1,6 @@
 # Khansole Academy
 
-## The Code
+## My Code
 
 ```
 import random
