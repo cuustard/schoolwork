@@ -1,12 +1,14 @@
 # Stanford: Code in Place
 
-The course: CS106A
-
 ## Introduction
 
-This is an online course that I applied for and got accepted onto (15% acceptance rate).
+This course takes participents through the first half of Harvards CS106A course. It has a competitive acceptance rate of 15%.
 
-## Indendant Tasks
+## Tasks
+
+The course consisted of weekly zoom meetings called sections. A section is essentially a group of students. During these sections
+
+### Indendant
 
 | Week | The Task                                                    | Difficulty for me |
 | :--- | :---------------------------------------------------------- | :---------------- |
@@ -29,7 +31,7 @@ This is an online course that I applied for and got accepted onto (15% acceptanc
 | 5    | [Quilt](cipTasks/aq_quilt.md)                               | 3/5               |
 | 6    | [Baby Snake](cipTasks/ar_baby_snake.md)                     | 4/5               |
 
-## Section Tasks
+### Section Tasks
 
 | Week | The Task                                                              | Difficulty for me |
 | :--- | :-------------------------------------------------------------------- | :---------------- |
