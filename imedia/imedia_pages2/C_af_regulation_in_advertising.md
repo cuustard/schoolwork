@@ -34,4 +34,7 @@ There are two types of regulation:
 |CAP (Committee of Advertising Practice)| Writes advertising codes|
 |ASA (Advertising Standards Authority)| Assesses if adverts breach CAP's advertising codes|
 
+## Key Pieces of Data that I think are important to know and utilise when planning a marketing campaign
 
+ASA only spent 93.9% of their budget. Means that they should have worked harder. Their target was at least 97.5%.  
+As a sector, Food and Drink make up 7.95% of complaints of all sectors. and 1376/21,110.  
