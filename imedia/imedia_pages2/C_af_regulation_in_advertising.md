@@ -13,6 +13,8 @@ There are two types of regulation:
 - Preemptive - regulation before release
 - Reactionary - regulation after release
 
+## Effects of marketing
+
 |Rank|Point|Justification|
 |:---|:---|:---|
 |1|helps businesses make a profit||
@@ -27,11 +29,9 @@ There are two types of regulation:
 
 ## ASA and CAP
 
-purpose: make ads responsbile for effects
-how many complaints: 30,000
-how many ads: 
-price of product or service, t&C
-20,952
-7,099 ads removed or changed
-389,289 advice from cap
+|Company|What they do|
+|:------|:-----------|
+|CAP (Committee of Advertising Practice)| Writes advertising codes|
+|ASA (Advertising Standards Authority)| Assesses if adverts breach CAP's advertising codes|
+
 
