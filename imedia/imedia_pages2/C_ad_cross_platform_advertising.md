@@ -16,35 +16,34 @@ noted : 26/05/23
 <details>
     <summary>Where, and on what platforms, did the adverts appeare?</summary>
 
-- Australia<br>
-- Outdoor ads (Billboards)<br>
-- Social Media<br>
-- News stations<br>
-- Kiosks (in shopping centers)<br>
-- Busses<br>
-- Blogs<br>
-- TV ads<br>
-- Cinema<br>
-- Magazines<br>
+Australia<br>
+Outdoor ads (Billboards)<br>
+Social Media<br>
+News stations<br>
+Kiosks (in shopping centers)<br>
+Busses<br>
+Blogs<br>
+TV ads<br>
+Cinema<br>
+Magazines<br>
 
 </details>
 
 <details>
     <summary>What does 'buzz' mean?</summary>
 
-- <br>
-- chatter<br>
-- presence<br>
+chatter<br>
+presence<br>
 
 </details>
 
 <details>
     <summary>What are 3 reasons why the campaign was seccessful?</summary>
 
-- Suprise campaign<br>
-- Personal Coke's<br>
-- Targeted at 1 country<br>
-- went from drink to a gift<br>
+Suprise campaign<br>
+Personal Coke's<br>
+Targeted at 1 country<br>
+went from drink to a gift<br>
 
 </details>
 
