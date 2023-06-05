@@ -7,12 +7,12 @@ noted : 26/05/23
 <details>
     <summary>Why did coke start this campaign?</summary>
 
-- to reconnect with australia.
-- to greaten coke sales.
-- only 50% of australinas had tried coke
+to reconnect with australia.<br>
+to greaten coke sales.<br>
+only 50% of australinas had tried coke<br>
 
 </details>
-
+<br>
 <details>
     <summary>Where, and on what platforms, did the adverts appeare?</summary>
 
@@ -28,7 +28,7 @@ Cinema<br>
 Magazines<br>
 
 </details>
-
+<br>
 <details>
     <summary>What does 'buzz' mean?</summary>
 
@@ -36,7 +36,7 @@ chatter<br>
 presence<br>
 
 </details>
-
+<br>
 <details>
     <summary>What are 3 reasons why the campaign was seccessful?</summary>
 
