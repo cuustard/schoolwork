@@ -16,3 +16,5 @@
 | Fufilling a need             | Is done when the audience needs, rather than wants, a product or service.                                              |
 | Solution to a problem        | Making the audience believe that their product will solve the audience's problem                                       |
 | Offering a benefit           | Making the audience believe that their product will improve the life of the audience.                                  |
+| Celebirty Endorsement | Using a celebrities fame to promote a product. |
+| Shockvertising | The use of provocative, taboo subjects and images, to grab the audiences attention. |
