@@ -6,48 +6,97 @@ noted : 26/05/23
 
 <details>
     <summary>Why did coke start this campaign?</summary>
-
-to reconnect with australia.<br>
-to greaten coke sales.<br>
-only 50% of australinas had tried coke<br>
-
+    to reconnect with australia.<br>
+    to greaten coke sales.<br>
+    only 50% of australinas had tried coke<br>
 </details>
 <br>
 <details>
     <summary>Where, and on what platforms, did the adverts appeare?</summary>
-
-Australia<br>
-Outdoor ads (Billboards)<br>
-Social Media<br>
-News stations<br>
-Kiosks (in shopping centers)<br>
-Busses<br>
-Blogs<br>
-TV ads<br>
-Cinema<br>
-Magazines<br>
-
+    Australia<br>
+    Outdoor ads (Billboards)<br>
+    Social Media<br>
+    News stations<br>
+    Kiosks (in shopping centers)<br>
+    Busses<br>
+    Blogs<br>
+    TV ads<br>
+    Cinema<br>
+    Magazines<br>
 </details>
-<br>
+
 <details>
     <summary>What does 'buzz' mean?</summary>
-
-chatter<br>
-presence<br>
-
+    chatter<br>
+    presence<br>
 </details>
-<br>
+
 <details>
     <summary>What are 3 reasons why the campaign was seccessful?</summary>
-
-Suprise campaign<br>
-Personal Coke's<br>
-Targeted at 1 country<br>
-went from drink to a gift<br>
-
+    Suprise campaign<br>
+    Personal Coke's<br>
+    Targeted at 1 country<br>
+    went from drink to a gift<br>
 </details>
 
-## Advertising Messages
+
+
+## Domino-oh-hoo-hoo
+
+<details>
+    <summary>Aims of the Campaign?</summary>
+    Re-engage customers<br>
+    Encouraging the nation to connect with friends, family and colleagues through a shared love of the country's best-loved pizza<br>
+    Positioning domino's as the go-to delivery service for get-togethers<br>
+    Increase profit<br>
+    Increase Brand Awareness<br>
+    Create a unique advert for an emotional appeal (grab attention)
+</details>
+
+<details>
+    <summary>Target Audience and how they are targeted?</summary>
+    Family and friends<br>
+    Teenagers, young adults, adults<br>
+    ABC1C2DE<br>
+    All ethnic backgrounds<br>
+    All sexes<br>
+</details>
+
+<details>
+    <summary>Choice of media used?</summary>
+    6 Month run in the UK and Ireland<br>
+    TV and digital video<br>
+    YouTube ads<br>
+    YouTube videos on Dominos Channel<br>
+    Radio<br>
+    Snapchat Lens
+</details>
+
+<details>
+    <summary>Campaign Logistics (timing, scheduling, significant calendar events)?</summary>
+    regular sized adverts<br>
+    blip adverts<br>
+    slogan consistantely in each<br>
+    Seasonal variations
+</details>
+
+<details>
+    <summary>Who is represented and how?</summary>
+    Males<br>
+    Friends<br>
+    Built up environment<br>
+    Regular people
+</details>
+
+<details>
+    <summary>The key product messages?</summary>
+    Encouraging the nation to connect with friends, family and colleagues through a shared love of the country's best-loved pizza<br>
+    Yodeling was USP
+</details>
+
+## Messages
+
+### Advertising messages
 
 | Message           | Elements                                    |
 | :---------------- | :------------------------------------------ |
@@ -55,7 +104,7 @@ went from drink to a gift<br>
 | Value proposition | good reason to use the product or service   |
 | Slogan            | unites campaign in the mind of the audience |
 
-### Propositional Messages
+### Propositional messages
 
 | Message                      | Elements                                                         |
 | :--------------------------- | :--------------------------------------------------------------- |
