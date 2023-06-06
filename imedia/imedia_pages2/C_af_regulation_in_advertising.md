@@ -37,4 +37,15 @@ There are two types of regulation:
 ## Key Pieces of Data that I think are important to know and utilise when planning a marketing campaign
 
 ASA only spent 93.9% of their budget. Means that they should have worked harder. Their target was at least 97.5%.  
-As a sector, Food and Drink make up 7.95% of complaints of all sectors. and 1376/21,110.  
+As a sector, Food and Drink make up 7.95% of complaints of all sectors. and 1376/21,110.
+
+## Advertising Codes
+
+- misleading ads
+- harmful ads
+- ofensive
+
+## Issues for socal media influencers
+
+- have to say they bought or recieved a product for free
+- have to say it is an ad
