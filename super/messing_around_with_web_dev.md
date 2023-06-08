@@ -2,4 +2,4 @@
 
 | Web Page                           | Desc                    |
 | :--------------------------------- | :---------------------- |
-| [Torch Effect](web_dev/other.html) | Created a torch effect. |
+| [Torch Effect](web_dev/torch.html) | Created a torch effect. |
