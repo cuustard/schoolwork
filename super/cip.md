@@ -35,9 +35,9 @@ The course consisted of weekly zoom meetings called sections. A section is essen
 
 | Week | The Task                                                              | Difficulty for me |
 | :--- | :-------------------------------------------------------------------- | :---------------- |
-| 1    | [Hospital Karel](cipSections/1_hospital_karel.md)                     | 1/5               |
-| 2    | [Spread Beepers](cipSections/2_spread_beepers.md)                     | 4/5               |
-| 3    | [Planetary Weight Calculator](cipSections/3_planetary_weight_calc.md) | 2/5               |
-| 4    | [Random Circles](cipSections/4_random_circles.md)                     | 2/5               |
-| 5    | [Scribbles](cipSections/5_scribble.md)                                | 2/5               |
-| 6    | [Heads Up](cipSections/6_heads_up.md)                                 | 2/5               |
+| 1    | [Hospital Karel](cipTasks/1_hospital_karel.md)                     | 1/5               |
+| 2    | [Spread Beepers](cipTasks/2_spread_beepers.md)                     | 4/5               |
+| 3    | [Planetary Weight Calculator](cipTasks/3_planetary_weight_calc.md) | 2/5               |
+| 4    | [Random Circles](cipTasks/4_random_circles.md)                     | 2/5               |
+| 5    | [Scribbles](cipTasks/5_scribble.md)                                | 2/5               |
+| 6    | [Heads Up](cipTasks/6_heads_up.md)                                 | 2/5               |
