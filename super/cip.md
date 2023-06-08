@@ -33,8 +33,8 @@ The course consisted of weekly zoom meetings called sections. A section is essen
 
 ### Section Tasks
 
-| Week | The Task                                                              | Difficulty for me |
-| :--- | :-------------------------------------------------------------------- | :---------------- |
+| Week | The Task                                                           | Difficulty for me |
+| :--- | :----------------------------------------------------------------- | :---------------- |
 | 1    | [Hospital Karel](cipTasks/1_hospital_karel.md)                     | 1/5               |
 | 2    | [Spread Beepers](cipTasks/2_spread_beepers.md)                     | 4/5               |
 | 3    | [Planetary Weight Calculator](cipTasks/3_planetary_weight_calc.md) | 2/5               |
