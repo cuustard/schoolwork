@@ -1,0 +1,54 @@
+/* START GRID SHIT */
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		"quotebook-selection add-quote add-quote add-quote add-quote add-quote add-quote add-quote add-quote add-quote add-quote quotebook-settings quotebook-settings quotebook-settings"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook member-list member-list member-list"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook filters filters filters"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook filters filters filters"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook filters filters filters"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook sorts sorts sorts"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook sorts sorts sorts"
+		"quotebook-selection selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook selected-quotebook sorts sorts sorts";
+	gap: 10px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.item {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#quotebook-selection {
+	grid-area: quotebook-selection;
+}
+#add-quote {
+	grid-area: add-quote;
+}
+#selected-quotebook {
+	grid-area: selected-quotebook;
+}
+#quotebook-settings {
+	grid-area: quotebook-settings;
+}
+#member-list {
+	grid-area: member-list;
+}
+#filters {
+	grid-area: filters;
+}
+#sorts {
+	grid-area: sorts;
+}
+
+.quotebook-selector {
+	display: block;
+	list-style-type: none;
+	background-color: red;
+	width: 100px;
+}
+
+.quotebook-selector:hover {
+	background-color: aqua;
+}
