@@ -1,0 +1,77 @@
+body {
+	background-color: #323338;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+ul {
+	overflow: hidden;
+}
+
+li {
+	list-style-type: none;
+	float: right;
+	padding: 10px;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	filter: drop-shadow(0px 0px 5px white);
+}
+
+header,
+section {
+	padding: 20px;
+	border: 1px solid green;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	margin-bottom: 0;
+	transition: 0.2s;
+	width: fit-content;
+	margin: auto;
+}
+
+h1:hover {
+	filter: drop-shadow(0px 0px 10px white);
+	transition: 0.2s;
+}
+
+input {
+	margin: 5px;
+}
+
+input[type="text"] {
+	overflow: auto;
+	width: 300px;
+	border-radius: 15px;
+	padding: 10px;
+	height: fit-content;
+	border: none;
+	outline: none;
+}
+
+input[type="text"]:focus {
+	transition: 0.1s;
+	box-shadow: rgba(225, 225, 225) 0px 0px 10px;
+}
+
+input[type="submit"] {
+	background-color: white;
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+	transition: 0.2s;
+	border: none;
+}
+
+input[type="submit"]:hover {
+	transition: 0.1s;
+	box-shadow: rgba(225, 225, 225) 0px 0px 10px;
+}
