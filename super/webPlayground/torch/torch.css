@@ -19,54 +19,6 @@
 }
 /* end tourch effect */
 
-/* START GRID SHIT */
-.grid-container {
-	display: grid;
-	grid-template-areas:
-		"nav nav nav"
-		"header header header"
-		"section section aside"
-		"article article aside";
-	gap: 10px;
-	padding: 10px;
-	border: 1px solid black;
-	max-width: 1080px;
-	margin: auto;
-}
-
-.item {
-	padding: 10px;
-	border: 1px solid black;
-}
-
-#item1 {
-	grid-area: nav;
-}
-#item2 {
-	grid-area: header;
-}
-#item3 {
-	grid-area: section;
-}
-#item4 {
-	grid-area: article;
-}
-#item5 {
-	grid-area: aside;
-}
-
-@media screen and (max-width: 600px) {
-	.grid-container {
-		grid-template-areas:
-			"nav"
-			"header"
-			"section"
-			"article "
-			"aside";
-	}
-}
-/* end grid shit */
-
 nav {
 	background-color: lightblue;
 }
