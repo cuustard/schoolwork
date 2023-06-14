@@ -2,6 +2,6 @@
 
 ## Projects
 
-| Project                              |
-| :----------------------------------- |
-| [Project 0](harvardXW/project0/project0.html) |
+| Project                                       | Task                |
+| :-------------------------------------------- | :------------------ |
+| [Project 0](harvardXW/project0/project0.html) | Recreate google.com |
