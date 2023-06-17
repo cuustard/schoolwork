@@ -1,0 +1,20 @@
+* {
+	border-collapse: collapse;
+}
+
+.content {
+	border: 1px solid black;
+	margin: auto;
+	width: fit-content;
+	padding: 30px;
+	display: grid;
+	grid-template-areas:
+		"title title"
+		"ridersL riders"
+		"distanceL distance"
+		"unitL unit"
+		"efficiencyL efficiency"
+		"fuelPriceL fuelPrice"
+		"button button"
+		"result result2";
+}
