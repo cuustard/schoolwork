@@ -13,10 +13,14 @@ function calculateCost() {
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
 	var litresUsed = gallonsUsed * 4.54609;
-	var costInPence = (litresUsed * fuelPrice) / numRiders;
+	var costInPence = litresUsed * fuelPrice;
 	var costInPounds = costInPence / 100;
+    var costPerPerson = costInPounds / numRiders
 
 	// Display the result
 	document.getElementById("result").innerHTML =
 		"The cost of the trip is: £" + costInPounds.toFixed(2);
+
+    document.getElementById("result2").innerHTML =
+		"Cost Per Person: £" + costPerPerson.toFixed(2);
 }
