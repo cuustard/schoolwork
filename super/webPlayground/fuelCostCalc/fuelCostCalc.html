@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Fuel Cost Calculator</title>
+		<title>Trip Fuel Cost Calculator</title>
+		<script src="fuelCostCalc.js"></script>
 	</head>
 	<body>
-		<h1>Fuel Cost Calculator</h1>
+		<h1>Trip Fuel Cost Calculator</h1>
 
-		<form id="fuelForm" onsubmit="calculateFuelCost(); return false;">
-			<label for="distance">Distance (in miles):</label>
-			<input type="number" id="distance" required /><br /><br />
+		<label for="riders">Number of Paying Passangers:</label>
+		<input type="number" id="riders" />
+		<br /><br />
 
-			<label for="price">Price per gallon (in GBP):</label>
-			<input type="number" id="price" step="0.01" required /><br /><br />
+		<label for="distance">Distance:</label>
+		<input type="number" id="distance" />
 
-			<button type="submit">Calculate</button>
-		</form>
+		<label for="unit">Unit:</label>
+		<select id="unit">
+			<option value="mi">Miles</option>
+			<option value="km">Kilometers</option>
+		</select>
+		<br /><br />
 
-		<h2 id="result"></h2>
+		<label for="efficiency">Fuel Efficiency (mpg):</label>
+		<input type="number" id="efficiency" value="40" />
+		<br /><br />
 
-		<script>
-			function calculateFuelCost() {
-				const distanceInput = document.getElementById("distance");
-				const priceInput = document.getElementById("price");
-				const resultElement = document.getElementById("result");
+		<label for="fuelPrice">Fuel Price (pence per litre):</label>
+		<input type="number" id="fuelPrice" value="145.30" />
+		<br /><br />
 
-				const distance = parseFloat(distanceInput.value);
-				const price = parseFloat(priceInput.value);
-				const mpg = 40;
+		<button onclick="calculateCost()">Calculate</button>
 
-				if (!isNaN(distance) && !isNaN(price)) {
-					const cost = (distance / mpg) * (price / 100);
-					resultElement.textContent =
-						"The cost of fuel for the entire journey is: £" +
-						cost.toFixed(2);
-				} else {
-					resultElement.textContent =
-						"Please enter valid values for distance and price.";
-				}
-			}
-		</script>
+		<p id="result"></p>
 	</body>
 </html>
