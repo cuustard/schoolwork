@@ -9,7 +9,7 @@ document
 document
 	.getElementById("efficiencyUnit")
 	.addEventListener("change", calculateCost);
-document.getElementById("fuelPrice")
+
 // Create subroutine
 function calculateCost() {
 	// Get input values
@@ -28,12 +28,15 @@ function calculateCost() {
 		numRiders = 1;
 	}
 
-	if (document.getElementById("efficiencyUnit").value === "mpl") {
-		efficiency *= 0.22;
+	// convert efficiency to mpg if its in mi/kWH
+
+	if (document.getElementById("efficiencyUnit").value === "mikWH") {
+		efficiency = (efficiency / 3.37) * 0.833;
 	}
 
-	if (document.getElementById(""))
-
+	// convert fuel cost rates to pence per litre
+	if (document.getElementById("costUnit").value === "kWM") {
+	}
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
 	var litresUsed = gallonsUsed * 4.54609;

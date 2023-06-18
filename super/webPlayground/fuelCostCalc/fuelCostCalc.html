@@ -16,7 +16,7 @@
 			<input
 				type="number"
 				id="distance"
-				placeholder="E.g. 420.69 or 21 "
+				placeholder="E.g. 283.46 or 283 "
 			/>
 
 			<label for="unit" id="unitLabel">Unit:</label>
@@ -30,24 +30,30 @@
 			<input
 				type="number"
 				id="efficiency"
-				placeholder="E.g. 217.3 or 23"
+				placeholder="E.g. 48.9 or 49"
 			/>
 			<label>Unit:</label>
 			<select id="efficiencyUnit">
 				<option value="mpg">mpg</option>
-				<option value="mpl">mpl</option></select
+				<option value="mikWH">mi/kWH</option></select
 			><br />
-			<a href="https://www.honestjohn.co.uk/real-mpg/">Find out.</a
+			<a href="https://www.honestjohn.co.uk/real-mpg/" target="_blank"
+				>Find out</a
 			><br /><br />
 
 			<label for="fuelPrice" id="fuelPriceLabel"
-				>Fuel Price (pence per litre):</label
+				>Fuel Price:</label
 			><br />
 			<input
 				type="number"
-				placeholder="E.g. 145.3 or 191"
+				placeholder="E.g. 144.9 or 150"
 				id="fuelPrice"
 			/>
+			<label>Unit:</label>
+			<select id="costUnit">
+				<option value="ppl">per L</option>
+				<option value="kWH">per kWH</option></select
+			><br />
 
 			<hr />
 
