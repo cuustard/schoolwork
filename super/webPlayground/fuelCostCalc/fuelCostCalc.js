@@ -32,6 +32,8 @@ function calculateCost() {
 		efficiency *= 0.22;
 	}
 
+	if (document.getElementById(""))
+
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
 	var litresUsed = gallonsUsed * 4.54609;
