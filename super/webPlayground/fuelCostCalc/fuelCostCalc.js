@@ -22,9 +22,9 @@ function calculateCost() {
 	var fuelType = document.getElementById("fuelType").value;
 
 	if (document.getElementById("fuelType").value === "diesel") {
-		var energyContent = 36;
+		energyContent = 36;
 	} else {
-		var energyContent = 33.5;
+		energyContent = 33.5;
 	}
 
 	// Convert distance to miles if it's in kilometers
@@ -45,8 +45,8 @@ function calculateCost() {
 	}
 
 	// convert fuel cost rates to pence per litre
-	if (document.getElementById("costUnit").value === "kWM") {
-		fuelPrice = (cost / 3600000) * energyContent;
+	if (document.getElementById("costUnit").value === "kWH") {
+		fuelPrice = (fuelPrice / 3600000) * energyContent;
 	}
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
