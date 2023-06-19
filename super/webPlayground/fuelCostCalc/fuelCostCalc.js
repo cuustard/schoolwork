@@ -31,11 +31,12 @@ function calculateCost() {
 	// convert efficiency to mpg if its in mi/kWH
 
 	if (document.getElementById("efficiencyUnit").value === "mikWH") {
-		efficiency = (efficiency / 3.37) * 0.833;
+		efficiency = (efficiency * 3.37) / 0.833;
 	}
 
 	// convert fuel cost rates to pence per litre
 	if (document.getElementById("costUnit").value === "kWM") {
+		fuelPrice = (cost / 2600000 ) * 33.6
 	}
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
