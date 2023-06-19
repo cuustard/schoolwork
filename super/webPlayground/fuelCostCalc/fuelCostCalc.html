@@ -24,6 +24,14 @@
 				<option value="mi">mi</option>
 				<option value="km">km</option></select
 			><br /><br />
+			<label>Fuel:</label>
+			<select id="fuelType">
+				<option value="Petrol">Petrol</option>
+				<option value="Diesel">Diesel</option>
+				<option value="Unleaded">Unleaded</option>
+				<option value="Electricity">Electricity</option>
+			</select>
+			<br /><br />
 
 			<label for="efficiency" id="efficiencyLabel">Fuel Efficiency:</label
 			><br />
@@ -32,22 +40,16 @@
 				id="efficiency"
 				placeholder="E.g. 48.9 or 49"
 			/>
-			<label>Unit:</label>
+
+			<label for="efficiencyUnit">Unit:</label>
 			<select id="efficiencyUnit">
 				<option value="mpg">mpg</option>
-				<option value="mikWH">mi/kWH</option></select
+				<option value="mi/kWH">mi/kWH</option></select
 			><br />
 			<a href="https://www.honestjohn.co.uk/real-mpg/" target="_blank"
 				>Find out</a
-			><br /><br />
+			>
 
-			<label>Fuel:</label>
-			<select id="fuelType">
-				<option value="petrol">Petrol</option>
-				<option value="diesel">Diesel</option>
-				<option value="unleaded">Unleaded</option>
-				<option value="electricity">Electricity</option>
-			</select>
 			<br /><br />
 
 			<label for="fuelPrice" id="fuelPriceLabel">Fuel Price:</label><br />
@@ -56,9 +58,10 @@
 				placeholder="E.g. 144.9 or 150"
 				id="fuelPrice"
 			/>
-			<label>pence per:</label>
+
+			<label for="costUnit">pence per:</label>
 			<select id="costUnit">
-				<option value="ppl">L</option>
+				<option value="L">L</option>
 				<option value="kWH">kWH</option>
 			</select>
 			<br />

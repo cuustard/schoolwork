@@ -12,7 +12,7 @@ document
 document.getElementById("fuelType").addEventListener("change", calculateCost);
 document.getElementById("costUnit").addEventListener("change", calculateCost);
 
-// Create subroutine
+// Function to calculate the fuel cost
 function calculateCost() {
 	// Get input values
 	var numRiders = parseFloat(document.getElementById("riders").value);
@@ -21,33 +21,38 @@ function calculateCost() {
 	var fuelPrice = parseFloat(document.getElementById("fuelPrice").value);
 	var fuelType = document.getElementById("fuelType").value;
 
-	if (document.getElementById("fuelType").value === "diesel") {
-		energyContent = 36;
+	// Get select elements
+	const fuelSelect = document.getElementById("fuelType");
+	const efficiencyUnitSelect = document.getElementById("efficiencyUnit");
+	const costUnitSelect = document.getElementById("costUnit");
+
+	// Set efficiency unit and cost unit based on fuel type
+	if (fuelSelect.value === "Electricity") {
+		efficiencyUnitSelect.value = "mi/kWH";
+		costUnitSelect.value = "kWH";
 	} else {
-		energyContent = 33.5;
+		efficiencyUnitSelect.value = "mpg";
+		costUnitSelect.value = "L";
 	}
+
+	// Set energy content based on fuel type
+	var energyContent = fuelType === "diesel" ? 36.4 : 33.5;
 
 	// Convert distance to miles if it's in kilometers
 	if (document.getElementById("distanceUnit").value === "km") {
 		distance *= 0.621371;
 	}
 
-	// If Paying Passengers is empty, assume they mean 1 passenger (themself)
+	// If Paying Passengers is empty, assume they mean 1 passenger (themselves)
 	if (document.getElementById("riders").value === "") {
 		numRiders = 1;
 	}
 
-	// convert efficiency to mpg if its in mi/kWH
-
-	if (document.getElementById("efficiencyUnit").value === "mikWH") {
-		// replace line with setting fuel cost unit to kWH
-		efficiency = (efficiency * 3.37) / 0.833;
+	// Convert efficiency to mpg if it's in mi/kWH
+	if (document.getElementById("efficiencyUnit").value === "mi/kWH") {
+		efficiency *= energyContent;
 	}
 
-	// convert fuel cost rates to pence per litre
-	if (document.getElementById("costUnit").value === "kWH") {
-		fuelPrice = (fuelPrice / 3600000) * energyContent;
-	}
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;
 	var litresUsed = gallonsUsed * 4.54609;
@@ -58,7 +63,6 @@ function calculateCost() {
 	// Display the result
 	document.getElementById("result").innerHTML =
 		"Total cost: £" + costInPounds.toFixed(2);
-
 	document.getElementById("result2").innerHTML =
 		"Per passenger cost: £" + costPerPerson.toFixed(2);
 }
