@@ -9,6 +9,8 @@ document
 document
 	.getElementById("efficiencyUnit")
 	.addEventListener("change", calculateCost);
+document.getElementById("fuelType").addEventListener("change", calculateCost);
+document.getElementById("costUnit").addEventListener("change", calculateCost);
 
 // Create subroutine
 function calculateCost() {
@@ -17,6 +19,13 @@ function calculateCost() {
 	var distance = parseFloat(document.getElementById("distance").value);
 	var efficiency = parseFloat(document.getElementById("efficiency").value);
 	var fuelPrice = parseFloat(document.getElementById("fuelPrice").value);
+	var fuelType = document.getElementById("fuelType").value;
+
+	if (document.getElementById("fuelType").value === "diesel") {
+		var energyContent = 36;
+	} else {
+		var energyContent = 33.5;
+	}
 
 	// Convert distance to miles if it's in kilometers
 	if (document.getElementById("distanceUnit").value === "km") {
@@ -31,12 +40,13 @@ function calculateCost() {
 	// convert efficiency to mpg if its in mi/kWH
 
 	if (document.getElementById("efficiencyUnit").value === "mikWH") {
+		// replace line with setting fuel cost unit to kWH
 		efficiency = (efficiency * 3.37) / 0.833;
 	}
 
 	// convert fuel cost rates to pence per litre
 	if (document.getElementById("costUnit").value === "kWM") {
-		fuelPrice = (cost / 2600000 ) * 33.6
+		fuelPrice = (cost / 3600000) * energyContent;
 	}
 	// Calculate fuel cost
 	var gallonsUsed = distance / efficiency;

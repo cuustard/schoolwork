@@ -41,19 +41,27 @@
 				>Find out</a
 			><br /><br />
 
-			<label for="fuelPrice" id="fuelPriceLabel"
-				>Fuel Price:</label
-			><br />
+			<label>Fuel:</label>
+			<select id="fuelType">
+				<option value="petrol">Petrol</option>
+				<option value="diesel">Diesel</option>
+				<option value="unleaded">Unleaded</option>
+				<option value="electricity">Electricity</option>
+			</select>
+			<br /><br />
+
+			<label for="fuelPrice" id="fuelPriceLabel">Fuel Price:</label><br />
 			<input
 				type="number"
 				placeholder="E.g. 144.9 or 150"
 				id="fuelPrice"
 			/>
-			<label>per:</label>
+			<label>pence per:</label>
 			<select id="costUnit">
 				<option value="ppl">L</option>
-				<option value="kWH">kWH</option></select
-			><br />
+				<option value="kWH">kWH</option>
+			</select>
+			<br />
 
 			<hr />
 
