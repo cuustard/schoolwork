@@ -12,7 +12,7 @@ document
 document.getElementById("fuelType").addEventListener("change", calculateCost);
 document.getElementById("costUnit").addEventListener("change", calculateCost);
 
-// Function to calculate the fuel cost
+// Create subroutine
 function calculateCost() {
 	// Get input values
 	var numRiders = parseFloat(document.getElementById("riders").value);
@@ -21,12 +21,10 @@ function calculateCost() {
 	var fuelPrice = parseFloat(document.getElementById("fuelPrice").value);
 	var fuelType = document.getElementById("fuelType").value;
 
-	// Get select elements
 	const fuelSelect = document.getElementById("fuelType");
 	const efficiencyUnitSelect = document.getElementById("efficiencyUnit");
 	const costUnitSelect = document.getElementById("costUnit");
 
-	// Set efficiency unit and cost unit based on fuel type
 	if (fuelSelect.value === "Electricity") {
 		efficiencyUnitSelect.value = "mi/kWH";
 		costUnitSelect.value = "kWH";
@@ -35,22 +33,27 @@ function calculateCost() {
 		costUnitSelect.value = "L";
 	}
 
-	// Set energy content based on fuel type
-	var energyContent = fuelType === "diesel" ? 36.4 : 33.5;
+	if (document.getElementById("fuelType").value === "ICE") {
+		energyContent = 36.4;
+	} else {
+		energyContent = 33.5;
+	}
 
-	// Convert distance to miles if it's in kilometers
 	if (document.getElementById("distanceUnit").value === "km") {
+		// Convert distance to miles if it's in kilometers
 		distance *= 0.621371;
 	}
 
-	// If Paying Passengers is empty, assume they mean 1 passenger (themselves)
+	// If Paying Passengers is empty, assume they mean 1 passenger (themself)
 	if (document.getElementById("riders").value === "") {
 		numRiders = 1;
 	}
 
-	// Convert efficiency to mpg if it's in mi/kWH
-	if (document.getElementById("efficiencyUnit").value === "mi/kWH") {
-		efficiency *= energyContent;
+	// convert efficiency to mpg if its in mi/kWH
+
+	if (document.getElementById("efficiencyUnit").value === "mikWH") {
+		// replace line with setting fuel cost unit to kWH
+		efficiency = efficiency * energyContent;
 	}
 
 	// Calculate fuel cost
@@ -60,9 +63,16 @@ function calculateCost() {
 	var costInPounds = costInPence / 100;
 	var costPerPerson = costInPounds / numRiders;
 
+	if (fuelSelect.value === "Electricity") {
+		var electricityUsed = distance / efficiency;
+		var costInPence = electricityUsed * fuelPrice;
+		var costInPounds = costInPence / 100;
+		var costPerPerson = costInPounds / numRiders;
+	}
 	// Display the result
 	document.getElementById("result").innerHTML =
 		"Total cost: £" + costInPounds.toFixed(2);
+
 	document.getElementById("result2").innerHTML =
 		"Per passenger cost: £" + costPerPerson.toFixed(2);
 }
