@@ -1,71 +1,63 @@
 // Event listeners to calculate the cost whenever an input changes
-document.getElementById("riders").addEventListener("input", calculateCost);
+document.getElementById("numRiders").addEventListener("input", calculateCost);
 document.getElementById("distance").addEventListener("input", calculateCost);
-document.getElementById("efficiency").addEventListener("input", calculateCost);
-document.getElementById("fuelPrice").addEventListener("input", calculateCost);
 document
 	.getElementById("distanceUnit")
 	.addEventListener("change", calculateCost);
+document.getElementById("carType").addEventListener("change", calculateCost);
+document
+	.getElementById("fuelEfficiency")
+	.addEventListener("input", calculateCost);
+document.getElementById("fuelPrice").addEventListener("input", calculateCost);
 document
 	.getElementById("efficiencyUnit")
 	.addEventListener("change", calculateCost);
-document.getElementById("fuelType").addEventListener("change", calculateCost);
 document.getElementById("costUnit").addEventListener("change", calculateCost);
 
 // Create subroutine
 function calculateCost() {
 	// Get input values
-	var numRiders = parseFloat(document.getElementById("riders").value);
+	var numRiders = parseFloat(document.getElementById("numRiders").value);
 	var distance = parseFloat(document.getElementById("distance").value);
-	var efficiency = parseFloat(document.getElementById("efficiency").value);
+	var distanceUnit = document.getElementById("distanceUnit").value;
+	var carType = document.getElementById("carType").value;
+	var fuelEfficiency = parseFloat(
+		document.getElementById("fuelEfficiency").value
+	);
 	var fuelPrice = parseFloat(document.getElementById("fuelPrice").value);
-	var fuelType = document.getElementById("fuelType").value;
+	var efficiencyUnit = document.getElementById("efficiencyUnit");
 
-	const fuelSelect = document.getElementById("fuelType");
-	const efficiencyUnitSelect = document.getElementById("efficiencyUnit");
-	const costUnitSelect = document.getElementById("costUnit");
-
-	if (fuelSelect.value === "Electricity") {
-		efficiencyUnitSelect.value = "mi/kWH";
-		costUnitSelect.value = "kWH";
+	var costUnit = document.getElementById("costUnit");
+	if (carType === "Electric") {
+		efficiencyUnit.innerHTML = "mi/kWH";
+		costUnit.innerHTML = "kWH";
 	} else {
-		efficiencyUnitSelect.value = "mpg";
-		costUnitSelect.value = "L";
+		efficiencyUnit.innerHTML = "mpg";
+		costUnit.innerHTML = "L";
 	}
+	////////
 
-	if (document.getElementById("fuelType").value === "ICE") {
-		energyContent = 36.4;
-	} else {
-		energyContent = 33.5;
-	}
-
-	if (document.getElementById("distanceUnit").value === "km") {
+	if (distanceUnit === "km") {
 		// Convert distance to miles if it's in kilometers
 		distance *= 0.621371;
 	}
 
 	// If Paying Passengers is empty, assume they mean 1 passenger (themself)
-	if (document.getElementById("riders").value === "") {
+	if (document.getElementById("numRiders").value === "") {
 		numRiders = 1;
 	}
 
-	// convert efficiency to mpg if its in mi/kWH
-
-	if (document.getElementById("efficiencyUnit").value === "mikWH") {
-		// replace line with setting fuel cost unit to kWH
-		efficiency = efficiency * energyContent;
-	}
-
 	// Calculate fuel cost
-	var gallonsUsed = distance / efficiency;
-	var litresUsed = gallonsUsed * 4.54609;
-	var costInPence = litresUsed * fuelPrice;
-	var costInPounds = costInPence / 100;
-	var costPerPerson = costInPounds / numRiders;
 
-	if (fuelSelect.value === "Electricity") {
-		var electricityUsed = distance / efficiency;
+	if (carType === "Electric") {
+		var electricityUsed = distance / fuelEfficiency;
 		var costInPence = electricityUsed * fuelPrice;
+		var costInPounds = costInPence / 100;
+		var costPerPerson = costInPounds / numRiders;
+	} else {
+		var gallonsUsed = distance / fuelEfficiency;
+		var litresUsed = gallonsUsed * 4.54609;
+		var costInPence = litresUsed * fuelPrice;
 		var costInPounds = costInPence / 100;
 		var costPerPerson = costInPounds / numRiders;
 	}
