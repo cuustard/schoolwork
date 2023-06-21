@@ -49,3 +49,21 @@ f(n) = alog<sub>2</sub>n
 ## Big-O notation
 
 A measure of the time complexity of an algorithm. an aproximation of the time it takes to execute an algorithm for a given number of items in a data set.
+
+## Permutations
+
+The number of ways the n items can be arranged.  
+
+|Type|E.g.|
+|:--|:---|
+|Repetition allowed|combination lock with 4 digits 0 to 9|
+|Not allowed|4 differently colored balls in a bag and you draw out one at a time|
+
+## Premutations with repetition
+
+10 digits (0 to 9) but only choose 2 digits
+
+This problem is O(10<sup>n</sup>)
+
+## Premutations with no repetition
+
