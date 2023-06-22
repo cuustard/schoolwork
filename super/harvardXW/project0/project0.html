@@ -8,16 +8,17 @@
 		<title>HarvardX CS50W - Project 0</title>
 	</head>
 	<body>
-		<div class="section">
-			<nav>
-				<ul>
-					<li>
-						<a href="advanced.html" tabindex="4">Advanced Search</a>
-					</li>
-					<li><a href="image.html" tabindex="5">Image Search</a></li>
-				</ul>
-			</nav>
-			<h1>Google</h1>
+		<nav>
+			<ul>
+				<li><a href="#advanced" tabindex="4">Advanced Search</a></li>
+				<li><a href="#image" tabindex="5">Image Search</a></li>
+			</ul>
+		</nav>
+		<div>
+			<img
+				src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+			/>
+
 			<form action="https://www.google.com/search">
 				<input
 					type="text"
@@ -25,8 +26,20 @@
 					autocomplete="off"
 					tabindex="1"
 				/><br />
-				<input type="submit" value="Google Search" tabindex="2" />
+				<input
+					type="submit"
+					value="Google Search"
+					tabindex="2"
+					id="search"
+				/>
+				<input
+					type="submit"
+					value="I'm Feeling Lucky"
+					tabindex="3"
+					id="lucky"
+				/>
 			</form>
 		</div>
+		<footer></footer>
 	</body>
 </html>

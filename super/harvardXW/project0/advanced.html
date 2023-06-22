@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google Advanced Search</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+			}
+
+			.container {
+				max-width: 600px;
+				margin: 0 auto;
+				padding: 20px;
+			}
+
+			.form-group {
+				margin-bottom: 20px;
+			}
+
+			.form-group label {
+				display: block;
+				font-weight: bold;
+				margin-bottom: 5px;
+			}
+
+			.form-group input[type="text"],
+			.form-group select {
+				width: 100%;
+				padding: 8px;
+				font-size: 14px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+			}
+
+			.form-group input[type="submit"] {
+				background-color: #4caf50;
+				color: white;
+				border: none;
+				padding: 10px 20px;
+				font-size: 14px;
+				cursor: pointer;
+			}
+
+			.form-group input[type="submit"]:hover {
+				background-color: #45a049;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Google Advanced Search</h1>
+			<form action="https://www.google.com/search" method="get">
+				<div class="form-group">
+					<label for="search">All these words:</label>
+					<input type="text" name="as_q" id="search" />
+				</div>
+				<div class="form-group">
+					<label for="exact-phrase">Exact word or phrase:</label>
+					<input type="text" name="as_epq" id="exact-phrase" />
+				</div>
+				<div class="form-group">
+					<label for="any-words">Any of these words:</label>
+					<input type="text" name="as_oq" id="any-words" />
+				</div>
+				<div class="form-group">
+					<label for="none-words">None of these words:</label>
+					<input type="text" name="as_eq" id="none-words" />
+				</div>
+				<div class="form-group">
+					<label for="language">Language:</label>
+					<select name="lr" id="language">
+						<option value="lang_en">English</option>
+						<option value="lang_fr">French</option>
+						<option value="lang_de">German</option>
+						<option value="lang_es">Spanish</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Google Search" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
