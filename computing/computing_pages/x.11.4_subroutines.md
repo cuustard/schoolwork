@@ -78,8 +78,8 @@ Means breaking down major tasks into smaller sub-tasks. Each sub-tasks may be fu
 
 ### Advantages of modular programming
 
-- Programs are more easily and quickly written.
-- Large programs are broken down into sub-tasks that are easiekr to manage and program.
-- Each module can be individually tested.
-- Modules can be re-used in a program
-- Large programs are easier to debig and maintain
+-   Programs are more easily and quickly written.
+-   Large programs are broken down into sub-tasks that are easiekr to manage and program.
+-   Each module can be individually tested.
+-   Modules can be re-used in a program
+-   Large programs are easier to debig and maintain

@@ -8,10 +8,10 @@ An IDE is software which enables you to enter, edit, compile and run code.
 
 ### Usefull features of the IDE
 
-- line numbers
-- auto indentation
-- auto-complete commands
-- un/comment code
+-   line numbers
+-   auto indentation
+-   auto-complete commands
+-   un/comment code
 
 ## Debugging Facilities
 

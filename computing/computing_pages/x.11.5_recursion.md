@@ -50,9 +50,9 @@ Each time the subroutine is called, the return address, parameter and local vari
 
 3 essential characteristics:
 
-- a stopping condition which ensures that a routine will not call itself and will instead 'unwind'
-- the routine must call itself
-- the stopping condition must be reach after a finite number of calls
+-   a stopping condition which ensures that a routine will not call itself and will instead 'unwind'
+-   the routine must call itself
+-   the stopping condition must be reach after a finite number of calls
 
 ## Stack overflow
 

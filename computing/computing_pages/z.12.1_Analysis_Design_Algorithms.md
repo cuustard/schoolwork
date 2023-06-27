@@ -7,31 +7,31 @@ Undecideable problem: no algorthm can be written to always give a correct true/f
 
 ## Problems solved by Algorithms
 
-- Routing - packets, shortest traveling route
-- Timetabling - aircraft, schools
-- Searching - information on the internet
-- Encrypting - communications so they arent hacked
-- Sorting - large amounts of data
-- Writing - compiler
+-   Routing - packets, shortest traveling route
+-   Timetabling - aircraft, schools
+-   Searching - information on the internet
+-   Encrypting - communications so they arent hacked
+-   Sorting - large amounts of data
+-   Writing - compiler
 
 ## Properties of a good algorithm
 
-- clear and precise steps
-- produce correct ouput for any set of values
-- most (must always terminate)
-- should execute efficiently, in as few steps as possible
-- designed so others easily understand
+-   clear and precise steps
+-   produce correct ouput for any set of values
+-   most (must always terminate)
+-   should execute efficiently, in as few steps as possible
+-   designed so others easily understand
 
 ### Efficientcy of an Algorithm
 
-
 ## Funtions
 
-|Type|Form|
-|:---|:---|
-|Linear||
-|Quadratic||
-|Logarithmic||
+| Type        | Form |
+| :---------- | :--- |
+| Linear      |      |
+| Quadratic   |      |
+| Logarithmic |      |
+
 ## Linear Functions
 
 A linear function: f(n) = an + b  
@@ -52,12 +52,12 @@ A measure of the time complexity of an algorithm. an aproximation of the time it
 
 ## Permutations
 
-The number of ways the n items can be arranged.  
+The number of ways the n items can be arranged.
 
-|Type|E.g.|
-|:--|:---|
-|Repetition allowed|combination lock with 4 digits 0 to 9|
-|Not allowed|4 differently colored balls in a bag and you draw out one at a time|
+| Type               | E.g.                                                                |
+| :----------------- | :------------------------------------------------------------------ |
+| Repetition allowed | combination lock with 4 digits 0 to 9                               |
+| Not allowed        | 4 differently colored balls in a bag and you draw out one at a time |
 
 ## Premutations with repetition
 
@@ -66,4 +66,3 @@ The number of ways the n items can be arranged.
 This problem is O(10<sup>n</sup>)
 
 ## Premutations with no repetition
-

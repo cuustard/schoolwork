@@ -5,11 +5,11 @@ noted : 03/05/2023
 bundle data and mehods to put them into library so we can import later.  
 Benefits:
 
-- Modular
-- pluggable,
-- protected
-- reusable
-- faster dev
+-   Modular
+-   pluggable,
+-   protected
+-   reusable
+-   faster dev
 
 ## CLasses
 
