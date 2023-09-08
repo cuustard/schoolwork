@@ -28,4 +28,11 @@ stinky winky
 - sell someting
 - make money
 - persuade - propaganda
-- 
+
+## Financial Considerations:
+
+- Premoses & Resources
+- Staffing
+- Transport
+- Legal Costs
+- Location
