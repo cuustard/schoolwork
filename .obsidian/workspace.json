@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3f3b6c4866ee7bf5",
+        "id": "d3af5386021ecdc3",
         "type": "tabs",
         "children": [
           {
-            "id": "3bca78733077527b",
+            "id": "4deee92747cabed9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,6 +138,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bca78733077527b",
-  "lastOpenFiles": []
+  "active": "4deee92747cabed9",
+  "lastOpenFiles": [
+    "computing/computing_pages/1.1_processor_components.md"
+  ]
 }
