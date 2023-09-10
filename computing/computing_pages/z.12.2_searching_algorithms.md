@@ -26,6 +26,6 @@ function linearSearch(nameList, nameSought):
 endfunction
 ```
 
-## Binary Searh
+## Binary Search
 
 Used for sorted list.
