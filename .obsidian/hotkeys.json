@@ -1,1 +1,11 @@
-{}
+{
+  "editor:toggle-comments": [],
+  "obsidian-languagetool-plugin:ltcheck-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "'"
+    }
+  ]
+}

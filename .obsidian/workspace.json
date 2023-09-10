@@ -11,15 +11,24 @@
             "id": "4deee92747cabed9",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "7043f324f6c7b979",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
+                "file": "computing/computing_pages/Unit_4/4.1_exchanging_data.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
+                "file": "computing/computing_pages/Unit_4/4.1_exchanging_data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md",
+                "file": "computing/computing_pages/Unit_4/4.1_exchanging_data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computing/computing_pages/1.1_processor_components.md"
+                "file": "computing/computing_pages/Unit_4/4.1_exchanging_data.md"
               }
             }
           }
@@ -146,14 +155,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4deee92747cabed9",
+  "active": "7043f324f6c7b979",
   "lastOpenFiles": [
-    "computing/computing_pages/2.1_function_OS.md",
-    "computing/computing_pages/2.4_language_translators.md",
-    "computing/computing_pages/6.3_binary_arithmetic.md",
-    "computing/computing_pages/6.4_floating_point_arithmetic.md",
-    "computing/computing_pages/x.11.5_recursion.md",
-    "computing/computing_pages/z.12.2_searching_algorithms.md",
-    "computing/computing_pages/1.1_processor_components.md"
+    "computing/computing_pages/Unit_3/3.4_assembly_language.md",
+    "computing/computing_pages/Unit_3/3.3_programming_paradigm.md",
+    "computing/computing_pages/Unit_3/3.2_folowing_algorithms.md",
+    "computing/computing_pages/Unit_3/3.1_system_analysis_methods.md",
+    "computing/computing_pages/Unit_2/2.4_language_translators.md",
+    "computing/computing_pages/Unit_2/2.3_software.md",
+    "computing/computing_pages/Unit_2/2.2_types_OS.md",
+    "computing/computing_pages/Unit_2/2.1_function_OS.md",
+    "computing/computing_pages/Unit_1/1.6_storage_devices.md",
+    "computing/computing_pages/Unit_1/1.5_output_devices.md",
+    "computing/computing_pages/Unit_1/1.4_input_devices.md",
+    "computing/computing_pages/Unit_1/1.3_processor_types.md",
+    "computing/computing_pages/Unit_1/1.2_processor_performance.md",
+    "computing/computing_pages/Unit_1/1.1_processor_components.md",
+    "ROM.md",
+    "computing/computing_pages/Unit_5/5.5_web_forms_js.md",
+    "computing/computing_pages/Unit_5/5.6_SEI_Pagerank.md",
+    "computing/computing_pages/Unit_5/5.1_structure_internet.md",
+    "computing/computing_pages/Unit_5/5.3_network_sec_threat.md",
+    "computing/computing_pages/Unit_5/5.2_internet_coms.md",
+    "computing/computing_pages/Unit_5/5.4_HTML_CSS.md",
+    "computing/computing_pages/Unit_4/4.1_exchanging_data.md",
+    "computing/computing_pages/Unit_z_12/z.12.1_Analysis_Design_Algorithms.md",
+    "computing/computing_pages/Unit_x_11/x.11.1_IDE_programming_basics.md",
+    "computing/computing_pages/Unit_z_12",
+    "computing/computing_pages/Unit_ten/ten.1_thinking_abstractly.md",
+    "computing/computing_pages/Unit_x_11",
+    "computing/computing_pages/Unit_8/8.2_simplify_boolean.md",
+    "computing/computing_pages/Unit_ten",
+    "computing/computing_pages/Unit_9",
+    "computing/computing_pages/Unit_8",
+    "computing/computing_pages/Unit_7",
+    "computing/computing_pages/Unit_6",
+    "computing/computing_pages/Unit_5",
+    "computing/computing_pages/Unit_4",
+    "computing/computing_pages/Unit_3"
   ]
 }
