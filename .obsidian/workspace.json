@@ -4,27 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d3af5386021ecdc3",
+        "id": "2d7abe1c6a377d59",
         "type": "tabs",
         "children": [
           {
-            "id": "4deee92747cabed9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "7043f324f6c7b979",
+            "id": "7a57d57b7fc7345a",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,6 +120,16 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "fbd31728f08eda61",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -147,8 +148,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7043f324f6c7b979",
+  "active": "7a57d57b7fc7345a",
   "lastOpenFiles": [
+    "computing/computing_pages/Unit_x_11/x.11.1_IDE_programming_basics.md",
+    "computing/computing_pages/Unit_z_12/12.2_searching_algorithms.md",
+    "computing/computing_pages/Unit_z_12/12.1_Analysis_Design_Algorithms.md",
+    "computing/computing_pages/Unit_z_12/12.5_graph_traversal_algorithms.md",
+    "computing/computing_pages/Unit_z_12/12.6_optimisation_algorithms.md",
     "computing/computing_pages/Unit_4/4.1_exchanging_data.md",
     "computing/computing_pages/Unit_3/3.4_assembly_language.md",
     "computing/computing_pages/Unit_3/3.3_programming_paradigm.md",
@@ -170,13 +176,8 @@
     "computing/computing_pages/Unit_5/5.1_structure_internet.md",
     "computing/computing_pages/Unit_5/5.3_network_sec_threat.md",
     "computing/computing_pages/Unit_5/5.2_internet_coms.md",
-    "computing/computing_pages/Unit_5/5.4_HTML_CSS.md",
-    "computing/computing_pages/Unit_z_12/z.12.1_Analysis_Design_Algorithms.md",
-    "computing/computing_pages/Unit_x_11/x.11.1_IDE_programming_basics.md",
     "computing/computing_pages/Unit_z_12",
-    "computing/computing_pages/Unit_ten/ten.1_thinking_abstractly.md",
     "computing/computing_pages/Unit_x_11",
-    "computing/computing_pages/Unit_8/8.2_simplify_boolean.md",
     "computing/computing_pages/Unit_ten",
     "computing/computing_pages/Unit_9",
     "computing/computing_pages/Unit_8",

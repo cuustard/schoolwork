@@ -54,8 +54,8 @@ Assignment is used to allocate a value to the memory location. Essentially assig
 
 ## Variables and Constants
 
-Value of a variable can be changed whilist the program is running.  
-Value of a CONSTANT can not be chagned whilist the program is running.
+Value of a variable can be changed whilst the program is running.  
+Value of a CONSTANT can not be changed whilst the program is running.
 
 Constants reduce the risk of errors by reducing access to the memory location.  
 For example, you would define π as a constant as this mathematical value will never change.
