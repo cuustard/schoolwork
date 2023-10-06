@@ -4,9 +4,9 @@ noted : 05/06/23
 
 |Regulation|Answer|
 |:---|:---|
-|What is it?||
-|What is the purpose?|To keep the audience safe|
-|Why is it important?|Advertising tries to make you do something. So regulation most important|
+|Definition||
+|Purpose|To keep the audience safe|
+|Importance|Advertising tries to make you do something. So regulation most important|
 
 There are two types of regulation:
 
