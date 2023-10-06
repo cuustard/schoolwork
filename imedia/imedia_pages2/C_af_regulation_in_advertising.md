@@ -10,8 +10,8 @@ noted : 05/06/23
 
 There are two types of regulation:
 
-- Preemptive: regulation before release of product
-- Reactionary: regulation after release of product
+- Preactive/Preemptive: regulation before release of product
+- Reactive: regulation after release of product
 
 ## Effects of marketing
 
