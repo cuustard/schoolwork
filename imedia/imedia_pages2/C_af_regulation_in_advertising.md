@@ -17,17 +17,17 @@ The types of regulation:
 
 ## Effects of marketing
 
-|Rank|Point|
-|:---|:---|
-|1|Helps businesses make a profit|
-|2|Draws attention to a product or service|
-|3|Makes us aware of different brands|
-|4|Tells consumers how much things cost|
-|5|Keeps consumers up to date with developments |
-|6|Tells us where to access products and services|
-|7|Tells the audienece what they need|
-|8|Makes the audience loyal to the brand|
-|9|Funny and entertaining|
+Personal rank of the effects of marketing:
+
+1. Helps the business make a profit
+2. Draws attention to a product or service
+3. Makes us aware of different brands
+4. Tells consumers how much a product/service costs
+5. Keeps consumers up to date with developments
+6. Tells us where to access products/services
+7. Tells the audience what they need
+8. Makes the audience loyal to the brand
+9. Funny and entertaining
 
 ## ASA & CAP
 
