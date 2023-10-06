@@ -8,10 +8,12 @@ noted : 05/06/23
 |Purpose|To keep the audience safe|
 |Importance|Advertising tries to make you do something. So regulation most important|
 
-There are two types of regulation:
+The types of regulation:
 
-- Preactive/Preemptive: regulation before release of product
-- Reactive: regulation after release of product
+|Type|Definition|
+|:---|:---------|
+|Pre-active/Pre-emptive|Regulation done before the release of the product|
+|Re-active|Regulation done after the release of the product|
 
 ## Effects of marketing
 
