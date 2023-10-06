@@ -34,6 +34,29 @@ There are two types of regulation:
 |CAP (Committee of Advertising Practice)| Writes advertising codes|
 |ASA (Advertising Standards Authority)| Assesses if adverts breach CAP's advertising codes|
 
+ASA covers:
+
+- magazines & newspaperes
+- Radio & TV
+- TV shopping channels
+- Posters
+- Cinema
+- Mail
+- Internet Ads
+- Leaflets & Brouchures
+- Commercial Email
+- CD & DVD
+- Sale Promotions
+
+They DO NOT cover:
+
+- Sponsorhips
+- Packaging
+- Shop Windows
+- Telephone Calls
+- Fly-posting
+- didnt get to finish noting
+
 ## Advertising Codes
 
 - Misleading ads
