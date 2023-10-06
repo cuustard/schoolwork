@@ -27,7 +27,7 @@ There are two types of regulation:
 |8|Makes the audience loyal to the brand|
 |9|Funny and entertaining|
 
-## ASA and CAP
+## ASA & CAP
 
 |Company|What they do|
 |:------|:-----------|
