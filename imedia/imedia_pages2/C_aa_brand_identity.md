@@ -11,9 +11,9 @@ Companies use advertising to Communicate it's identity.
 
 Brands are ranked on these qualities:
 
-- Quality - products are services
-- Reliability - trusted to deliver consistently
-- Distinction - well known in sector and differences from competitors
+-   Quality - products are services
+-   Reliability - trusted to deliver consistently
+-   Distinction - well known in sector and differences from competitors
 
 ### 2019 Superbrands
 
@@ -35,16 +35,3 @@ Brands are ranked on these qualities:
 | Apple     | Moderm, expensive, minimalistic, clean, trendy |                                                                                           |
 | Coca-Cola | Red, Refreshing, iconic, Fizzy, Vintage        | "to refresh the world and inspire moments of optimism and happiness"                      |
 | Nandos    | Spicy, cultural, colourful flavoursome, quick  | Fiery Colours, Spices, Busy, Sticky fongers, dancing                                      |
-
-## Identifiyinh Brand identities of Starbucks
-
-- skillful
-- magic
-- craft
-- art
-- clean
-- quick
-- entertaining
-- Portable
-- direct
-- variety of customers
