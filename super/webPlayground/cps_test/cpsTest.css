@@ -1,0 +1,16 @@
+.container {
+	display: grid;
+	place-items: center;
+	height: 100vh; /* This ensures the container takes up the full viewport height. */
+}
+
+.centered-div {
+	background-color: lightgray; /* To see the div*/
+	width: 50%;
+	height: 50%;
+	cursor: pointer; /* Add a pointer cursor to indicate it's clickable. */
+}
+
+.centered-div:active {
+	background-color: lightblue; /* Change the background color when the div is clicked. */
+}
