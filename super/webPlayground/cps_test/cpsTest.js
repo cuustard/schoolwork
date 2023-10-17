@@ -15,7 +15,7 @@ function startTimer() {
 			alert(
 				"5 second timer ended. You clicked " +
 					clickCount +
-					" times in 5 seconds."
+					" times in 5 seconds. So your cps: " + clickCount/5
 			);
 		}, 5000);
 	}

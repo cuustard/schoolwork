@@ -5,7 +5,10 @@
 	padding: 30px;
 }
 
-input, #costUnit, #efficiencyUnit, #stinky {
+input,
+#costUnit,
+#efficiencyUnit,
+#fuelEfficiencyLabel {
 	display: inline-block;
 }
 

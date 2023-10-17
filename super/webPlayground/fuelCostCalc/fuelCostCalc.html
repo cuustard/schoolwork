@@ -8,30 +8,34 @@
 		<div class="content">
 			<h1 id="title">Trip Fuel Cost Calculator</h1>
 
-			<label for="numRiders" id="ridersLabel">Paying occupants:</label>
-			<br />
-			<input type="number" id="numRiders" placeholder="E.g. 4" />
+			<label for="numRiders" id="numRidersLabel">Paying occupants:</label
+			><br />
+			<input type="number" id="numRiders" placeholder="e.g. 4" />
 			<br /><br />
 
-			<label for="distance" id="distanceLabel">Distance:</label><br />
+			<label for="distance" id="distanceLabel">Distance:</label>
+			<br />
 			<input
 				type="number"
 				id="distance"
-				placeholder="E.g. 283.46 or 283 "
+				placeholder="e.g. 283.46 or 283 "
 			/>
-			<label for="distanceLabel" id="unitLabel">Unit:</label>
+
 			<select id="distanceUnit">
 				<option value="mi">mi</option>
 				<option value="km">km</option></select
 			><br /><br />
-			<label for="carType">Car type:</label>
+			<label for="carType" id="carTypeLabel">Car type:</label>
 			<select id="carType">
 				<option value="ICE">ICE</option>
 				<option value="Electric">Electric</option>
 			</select>
 			<br /><br />
 
-			<label for="fuelEfficiency" id="stinky" title="find out"
+			<label
+				for="fuelEfficiency"
+				id="fuelEfficiencyLabel"
+				title="Find out your car's average miles per gallon"
 				><a href="https://www.honestjohn.co.uk/real-mpg/"
 					>Fuel Efficiency:</a
 				></label
@@ -39,7 +43,7 @@
 			<input
 				type="number"
 				id="fuelEfficiency"
-				placeholder="E.g. 48.9 or 49"
+				placeholder="e.g. 48.9 or 49"
 			/>
 			<p id="efficiencyUnit">mpg</p>
 			<br />
@@ -51,7 +55,7 @@
 				id="fuelPrice"
 			/>
 
-			<p id="costUnit">L</p>
+			<p id="costUnit">ppl</p>
 			<br />
 
 			<hr />
