@@ -6,60 +6,39 @@
 	</head>
 	<body>
 		<div class="content">
-			<h1 id="title">Trip Fuel Cost Calculator</h1>
-
-			<label for="numRiders" id="numRidersLabel">Paying occupants:</label
-			><br />
-			<input type="number" id="numRiders" placeholder="e.g. 4" />
-			<br /><br />
-
-			<label for="distance" id="distanceLabel">Distance:</label>
-			<br />
-			<input
-				type="number"
-				id="distance"
-				placeholder="e.g. 283.46 or 283 "
-			/>
-
-			<select id="distanceUnit">
-				<option value="mi">mi</option>
-				<option value="km">km</option></select
-			><br /><br />
-			<label for="carType" id="carTypeLabel">Car type:</label>
-			<select id="carType">
-				<option value="ICE">ICE</option>
-				<option value="Electric">Electric</option>
-			</select>
-			<br /><br />
-
-			<label
-				for="fuelEfficiency"
-				id="fuelEfficiencyLabel"
-				title="Find out your car's average miles per gallon"
-				><a href="https://www.honestjohn.co.uk/real-mpg/"
-					>Fuel Efficiency:</a
-				></label
-			><br />
-			<input
-				type="number"
-				id="fuelEfficiency"
-				placeholder="e.g. 48.9 or 49"
-			/>
-			<p id="efficiencyUnit">mpg</p>
-			<br />
-
-			<label for="fuelPrice" id="fuelPriceLabel">Fuel Price:</label><br />
-			<input
-				type="number"
-				placeholder="E.g. 144.9 or 150"
-				id="fuelPrice"
-			/>
-
-			<p id="costUnit">ppl</p>
-			<br />
-
+			<h1 id="title">Fuel Cost Calculator</h1>
+			<form>
+				<div class="inputContainer">
+					<label for="numRiders">Paying occupants:</label>
+					<input id="numRiders" type="number" placeholder="e.g. 4" />
+				</div>
+				<div class="inputContainer">
+					<label for="distance"><a href="https://www.google.com/maps" title="Total up your journey distance">Distance:</a></label>
+					<input type="number" id="distance" placeholder="e.g. 283.46 or 283 " />
+					<select class="unit" id="distanceUnit">
+						<option value="mi">mi</option>
+						<option value="km">km</option>
+					</select>
+				</div>
+				<div class="inputContainer">
+					<label for="carType">Car type:</label>
+					<select id="carType">
+						<option value="ice">ICE</option>
+						<option value="electric">Electric</option>
+					</select>
+				</div>
+				<div class="inputContainer">
+					<label for="fuelEfficiency"><a href="https://www.honestjohn.co.uk/real-mpg/" title="Find out your car's average miles per gallon">Fuel Efficiency:</a></label>
+					<input type="number" id="fuelEfficiency" placeholder="e.g. 48.9 or 49" />
+					<p class="unit" id="efficiencyUnit">mpg</p>
+				</div>
+				<div class="inputContainer">
+					<label for="fuelPrice"><a href="https://www.confused.com/petrol-prices" title="Check the latest fuel prices">Fuel Price:</a></label>
+					<input type="number" placeholder="E.g. 144.9 or 150" id="fuelPrice" />
+					<p class="unit" id="costUnit">pence/litre</p>
+				</div>
+			</form>
 			<hr />
-
 			<p id="result">Total cost:</p>
 			<p id="result2">Per passenger cost:</p>
 		</div>

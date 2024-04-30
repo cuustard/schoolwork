@@ -28,39 +28,33 @@ function calculateCost() {
 	var efficiencyUnit = document.getElementById("efficiencyUnit");
 
 	var costUnit = document.getElementById("costUnit");
-	if (carType === "Electric") {
-		efficiencyUnit.innerHTML = "mi/kWH";
-		costUnit.innerHTML = "kWH";
-	} else {
-		efficiencyUnit.innerHTML = "mpg";
-		costUnit.innerHTML = "L";
-	}
-	////////
-
 	if (distanceUnit === "km") {
 		// Convert distance to miles if it's in kilometers
 		distance *= 0.621371;
 	}
-
 	// If Paying Passengers is empty, assume they mean 1 passenger (themself)
 	if (document.getElementById("numRiders").value === "") {
 		numRiders = 1;
 	}
-
-	// Calculate fuel cost
-
-	if (carType === "Electric") {
+	if (carType === "electric") {
+		efficiencyUnit.innerHTML = "mi/kWH";
+		costUnit.innerHTML = "kWH";
+		// calculate cost of electricity
 		var electricityUsed = distance / fuelEfficiency;
 		var costInPence = electricityUsed * fuelPrice;
 		var costInPounds = costInPence / 100;
 		var costPerPerson = costInPounds / numRiders;
 	} else {
+		efficiencyUnit.innerHTML = "mpg";
+		costUnit.innerHTML = "ppl";
+		// calculate cost of petrol
 		var gallonsUsed = distance / fuelEfficiency;
 		var litresUsed = gallonsUsed * 4.54609;
 		var costInPence = litresUsed * fuelPrice;
 		var costInPounds = costInPence / 100;
 		var costPerPerson = costInPounds / numRiders;
 	}
+	////////
 	// Display the result
 	document.getElementById("result").innerHTML =
 		"Total cost: £" + costInPounds.toFixed(2);
