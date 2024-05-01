@@ -40,7 +40,7 @@
             <td>Coursework</td>
             <td><span id="courseWorkPercent2017"></span></td>
             <td><span id="courseWorkPercent2018"></span></td>
-            <td><span id="courseWorkPercent"></span></td>
+            <td><span id="courseWorkPercent2019"></span></td>
             <td><span id="courseWorkPercent2020"></span></td>
             <td><span id="courseWorkPercent2021"></span></td>
             <td><span id="courseWorkPercent2022"></span></td>
@@ -50,33 +50,118 @@
             <td>Exam</td>
             <td><span id="examPercent2017"></span></td>
             <td><span id="examPercent2018"></span></td>
-            <td><span id="examPercent"></span></td>
+            <td><span id="examPercent2019"></span></td>
             <td><span id="examPercent2020"></span></td>
             <td><span id="examPercent2021"></span></td>
             <td><span id="examPercent2022"></span></td>
             <td><span id="examPercent2023"></span></td>
         </tr>
-        <tr class="idek">
+        <tr>
             <td>Total</td>
             <td><span id="totalPercent2017"></span></td>
             <td><span id="totalPercent2018"></span></td>
-            <td><span id="totalPercent"></span></td>
+            <td><span id="totalPercent2019"></span></td>
             <td><span id="totalPercent2020"></span></td>
             <td><span id="totalPercent2021"></span></td>
             <td><span id="totalPercent2022"></span></td>
             <td><span id="totalPercent2023"></span></td>
         </tr>
-        <tr class="idek">
+        <tr>
             <td>Grade</td>
             <td><span id="result2017"></span></td>
             <td><span id="result2018"></span></td>
-            <td><span id="result"></span></td>
+            <td><span id="result2019"></span></td>
             <td><span id="result2020"></span></td>
             <td><span id="result2021"></span></td>
             <td><span id="result2022"></span></td>
             <td><span id="result2023"></span></td>
         </tr>
     </table>
+    <br><br>
+    <table id="gradeBoundariesTable">
+        <tr>
+            <th>Year</th>
+            <th>A*</th>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+            <th>D</th>
+            <th>E</th>
+            <th>U</th>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>81.14%</td>
+            <td>70.29%</td>
+            <td>59.43%</td>
+            <td>48.86%</td>
+            <td>38.29%</td>
+            <td>27.71%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2018</td>
+            <td>78.86%</td>
+            <td>68.00%</td>
+            <td>57.71%</td>
+            <td>47.71%</td>
+            <td>37.71%</td>
+            <td>27.71%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>81.43%</td>
+            <td>71.43%</td>
+            <td>60.57%</td>
+            <td>49.71%</td>
+            <td>39.14%</td>
+            <td>28.57%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2020</td>
+            <td>72.14%</td>
+            <td>61.07%</td>
+            <td>49.64%</td>
+            <td>38.21%</td>
+            <td>27.14%</td>
+            <td>16.07%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>68.21%</td>
+            <td>58.93%</td>
+            <td>48.21%</td>
+            <td>37.50%</td>
+            <td>26.79%</td>
+            <td>16.07%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>75.43%</td>
+            <td>65.43%</td>
+            <td>54.00%</td>
+            <td>42.86%</td>
+            <td>31.71%</td>
+            <td>20.57%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>81.71%</td>
+            <td>71.71%</td>
+            <td>59.71%</td>
+            <td>47.71%</td>
+            <td>36.00%</td>
+            <td>24.29%</td>
+            <td>0.00%</td>
+        </tr>
+    </table>
+    <canvas id="gradeBoundariesChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="gradeCalc.js"></script>
 </body>
 
