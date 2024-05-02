@@ -92,21 +92,22 @@ document.addEventListener("DOMContentLoaded", function () {
 		const courseWorkPercentValue = (courseWorkMarkValue / 70) * 100;
 		const examPercentValue = (examMarkValue / 280) * 100;
 
+		// Write the percentages to the elements with IDs 'courseworkPercent' and 'examPercent'
+		document.getElementById("courseworkPercent").textContent = `${courseWorkPercentValue.toFixed(2)}%`;
+		document.getElementById("examPercent").textContent = `${examPercentValue.toFixed(2)}%`;
+
 		for (let year in result) {
 			let overallGrade;
 			if (year === "2020" || year === "2021") {
-				overallGrade = examPercentValue * 3.5;
-				courseWorkPercent[year].textContent = "N/A";
+				overallGrade = examPercentValue * 2.8;
 				totalPercent[year].textContent = `${examPercentValue.toFixed(2)}%`;
 			} else {
 				overallGrade = (courseWorkPercentValue * 0.2 + examPercentValue * 0.8) * 3.5;
-				courseWorkPercent[year].textContent = `${courseWorkPercentValue.toFixed(2)}%`;
 				totalPercent[year].textContent = `${(courseWorkPercentValue * 0.2 + examPercentValue * 0.8).toFixed(
 					2
 				)}%`;
 			}
 			result[year].textContent = getGrade(overallGrade, year);
-			examPercent[year].textContent = `${examPercentValue.toFixed(2)}%`;
 		}
 	}
 
@@ -150,7 +151,7 @@ var data = Array.from(table.querySelectorAll("tr:not(:first-child)")).map((tr) =
 );
 var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 var ctx = document.getElementById("gradeBoundariesChart").getContext("2d");
-new Chart(ctx, {
+var chart = new Chart(ctx, {
 	type: "line",
 	data: {
 		labels: years,
@@ -162,6 +163,7 @@ new Chart(ctx, {
 			tension: 0.1,
 		})),
 	},
+
 	options: {
 		responsive: true,
 		plugins: {

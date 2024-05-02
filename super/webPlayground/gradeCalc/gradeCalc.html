@@ -24,7 +24,10 @@
             <span> / 280</span>
         </div>
     </form>
-    <br><br>
+    <br>
+    <p>Coursework Percentage: <span id="courseworkPercent"></span></p>
+    <p>Exam Percentage: <span id="examPercent"></span></p>
+    <br>
     <table>
         <tr>
             <th></th>
@@ -35,26 +38,6 @@
             <th>2021</th>
             <th>2022</th>
             <th>2023</th>
-        </tr>
-        <tr>
-            <td>Coursework</td>
-            <td><span id="courseWorkPercent2017"></span></td>
-            <td><span id="courseWorkPercent2018"></span></td>
-            <td><span id="courseWorkPercent2019"></span></td>
-            <td><span id="courseWorkPercent2020"></span></td>
-            <td><span id="courseWorkPercent2021"></span></td>
-            <td><span id="courseWorkPercent2022"></span></td>
-            <td><span id="courseWorkPercent2023"></span></td>
-        </tr>
-        <tr>
-            <td>Exam</td>
-            <td><span id="examPercent2017"></span></td>
-            <td><span id="examPercent2018"></span></td>
-            <td><span id="examPercent2019"></span></td>
-            <td><span id="examPercent2020"></span></td>
-            <td><span id="examPercent2021"></span></td>
-            <td><span id="examPercent2022"></span></td>
-            <td><span id="examPercent2023"></span></td>
         </tr>
         <tr>
             <td>Total</td>
@@ -161,6 +144,7 @@
         </tr>
     </table>
     <canvas id="gradeBoundariesChart"></canvas>
+    <canvas id="resultChart"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="gradeCalc.js"></script>
 </body>
