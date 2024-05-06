@@ -8,27 +8,41 @@
     <link rel="stylesheet" href="gradeCalc.css">
 </head>
 
+<style>
+    #myChart {
+        width: 800px;
+        /* Set the width of the graph */
+        height: 400px;
+        /* Set the height of the graph */
+    }
+</style>
+
 <body>
-    <form>
-        <div class="input-group">
-            <label for="courseWorkMark">Coursework Mark:</label>
-            <input type="range" min="0" max="70" value="35" step="1" id="courseWorkMark" name="courseWorkMark">
-            <input type="number" min="0" max="70" value="35" step="1" id="courseWorkMarkManual"
-                name="courseWorkMarktManual">
-            <span> / 70</span>
-        </div>
-        <div class="input-group">
-            <label for="examMark">Exam Mark:</label>
-            <input type="range" min="0" max="280" value="140" step="1" id="examMark" name="examMark">
-            <input type="number" min="0" max="280" value="140" step="1" id="examMarkManual" name="examMark">
-            <span> / 280</span>
-        </div>
-    </form>
-    <br>
-    <p>Coursework Percentage: <span id="courseworkPercent"></span></p>
-    <p>Exam Percentage: <span id="examPercent"></span></p>
-    <br>
+    <h1>A-Level OCR Computer Science Grade Calculator</h1>
+    <p>The A-Level OCR Computer Science course usually consists of coursework, amounting to 20% of the overall grade,
+        along with two written examinations, each contributing 40%. However, due to circumstances in 2020 and 2021,
+        coursework was omitted, making the total grade entirely reliant on the written examinations.</p>
+    <hr>
+    <p>Use the sliders to input coursework and exam marks.</p>
     <table>
+        <tr>
+            <td>Coursework Mark:</td>
+            <td><input type="range" min="0" max="70" value="35" step="1" id="courseWorkMark" name="courseWorkMark"></td>
+            <td><input type="number" min="0" max="70" value="35" step="1" id="courseWorkMarkManual"
+                    name="courseWorkMarktManual"><span>/70</span></td>
+            <td><span id="courseworkPercent"></span></td>
+        </tr>
+        <tr>
+            <td>Exam Mark:</td>
+            <td><input type="range" min="0" max="280" value="140" step="1" id="examMark" name="examMark"></td>
+            <td><input type="number" min="0" max="280" value="140" step="1" id="examMarkManual"
+                    name="examMark"><span>/280</span></td>
+            <td><span id="examPercent"></span></td>
+        </tr>
+    </table>
+    <hr>
+    <p>Here you can see the Total Percent of your inputs, and the grade that equates to for each year.</p>
+    <table id="newTableId">
         <tr>
             <th></th>
             <th>2017</th>
@@ -60,92 +74,9 @@
             <td><span id="result2023"></span></td>
         </tr>
     </table>
-    <br><br>
-    <table id="gradeBoundariesTable" hidden>
-        <tr>
-            <th>Year</th>
-            <th>A*</th>
-            <th>A</th>
-            <th>B</th>
-            <th>C</th>
-            <th>D</th>
-            <th>E</th>
-            <th>U</th>
-        </tr>
-        <tr>
-            <td>2017</td>
-            <td>81.14%</td>
-            <td>70.29%</td>
-            <td>59.43%</td>
-            <td>48.86%</td>
-            <td>38.29%</td>
-            <td>27.71%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2018</td>
-            <td>78.86%</td>
-            <td>68.00%</td>
-            <td>57.71%</td>
-            <td>47.71%</td>
-            <td>37.71%</td>
-            <td>27.71%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2019</td>
-            <td>81.43%</td>
-            <td>71.43%</td>
-            <td>60.57%</td>
-            <td>49.71%</td>
-            <td>39.14%</td>
-            <td>28.57%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2020</td>
-            <td>72.14%</td>
-            <td>61.07%</td>
-            <td>49.64%</td>
-            <td>38.21%</td>
-            <td>27.14%</td>
-            <td>16.07%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2021</td>
-            <td>68.21%</td>
-            <td>58.93%</td>
-            <td>48.21%</td>
-            <td>37.50%</td>
-            <td>26.79%</td>
-            <td>16.07%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2022</td>
-            <td>75.43%</td>
-            <td>65.43%</td>
-            <td>54.00%</td>
-            <td>42.86%</td>
-            <td>31.71%</td>
-            <td>20.57%</td>
-            <td>0.00%</td>
-        </tr>
-        <tr>
-            <td>2023</td>
-            <td>81.71%</td>
-            <td>71.71%</td>
-            <td>59.71%</td>
-            <td>47.71%</td>
-            <td>36.00%</td>
-            <td>24.29%</td>
-            <td>0.00%</td>
-        </tr>
-    </table>
-    <canvas id="gradeBoundariesChart"></canvas>
-    <canvas id="resultChart"></canvas>
+    <hr>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <canvas id="myChart"></canvas>
     <script src="gradeCalc.js"></script>
 </body>
 

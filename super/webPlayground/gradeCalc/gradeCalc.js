@@ -1,3 +1,6 @@
+var chart;
+var userPercent = [];
+
 document.addEventListener("DOMContentLoaded", function () {
 	const courseWorkInput = document.getElementById("courseWorkMark");
 	const courseWorkInputManual = document.getElementById("courseWorkMarkManual");
@@ -81,11 +84,13 @@ document.addEventListener("DOMContentLoaded", function () {
 		],
 	};
 
+	calculateGrade();
+
 	function getGrade(overallGrade, year) {
 		return gradeRanges[year].find((range) => overallGrade >= range.min).grade;
 	}
-
 	function calculateGrade() {
+		userPercent.length = 0;
 		const courseWorkMarkValue = parseInt(courseWorkInput.value, 10);
 		const examMarkValue = parseInt(examInput.value, 10);
 
@@ -107,7 +112,14 @@ document.addEventListener("DOMContentLoaded", function () {
 					2
 				)}%`;
 			}
+			userPercent.push(parseFloat(totalPercent[year].textContent));
 			result[year].textContent = getGrade(overallGrade, year);
+		}
+
+		console.log(userPercent); // Log userPercent array to the console
+		if (chart) {
+			chart.data.datasets[chart.data.datasets.length - 1].data = [...userPercent];
+			chart.update();
 		}
 	}
 
@@ -129,50 +141,62 @@ document.addEventListener("DOMContentLoaded", function () {
 		});
 	});
 
-	calculateGrade();
-
-	Array.from(document.getElementsByTagName("td")).forEach((cell) => {
-		["mouseenter", "mouseleave"].forEach((event) => {
-			cell.addEventListener(event, function () {
-				const colIndex = this.cellIndex;
-				Array.from(this.parentElement.parentElement.rows).forEach((row) => {
-					row.cells[colIndex].classList.toggle("hovered-column", event === "mouseenter");
-				});
-			});
-		});
-	});
 });
 
-var table = document.getElementById("gradeBoundariesTable");
-var years = Array.from(table.querySelectorAll("tr:not(:first-child) td:first-child")).map((td) => td.innerText);
-var grades = Array.from(table.querySelectorAll("tr:first-child th:not(:first-child)")).map((th) => th.innerText);
-var data = Array.from(table.querySelectorAll("tr:not(:first-child)")).map((tr) =>
-	Array.from(tr.querySelectorAll("td:not(:first-child)")).map((td) => parseFloat(td.innerText))
-);
-var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
-var ctx = document.getElementById("gradeBoundariesChart").getContext("2d");
-var chart = new Chart(ctx, {
+// PLOTTING
+// Define the data directly in JavaScript
+var years = [2017, 2018, 2019, 2020, 2021, 2022, 2023];
+var grades = ["A*", "A", "B", "C", "D", "E", "U"];
+var data = [
+	[81.14, 78.86, 81.43, 72.14, 68.21, 75.43, 81.71],
+	[70.29, 68.0, 71.43, 61.07, 58.93, 65.43, 71.71],
+	[59.43, 57.71, 60.57, 49.64, 48.21, 54.0, 59.71],
+	[48.86, 47.71, 49.71, 38.21, 37.5, 42.86, 47.71],
+	[38.29, 37.71, 39.14, 27.14, 26.79, 31.71, 36.0],
+	[27.71, 27.71, 28.57, 16.07, 16.07, 20.57, 24.29],
+	[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+];
+
+var ctx = document.getElementById("myChart").getContext("2d");
+
+var colors = ["green", "lime ", "yellow", "orange", "orangered", "red", "darkred"];
+
+chart = new Chart(ctx, {
 	type: "line",
 	data: {
 		labels: years,
-		datasets: grades.map((grade, i) => ({
-			label: grade,
-			data: data.map((row) => row[i]),
-			fill: false,
-			borderColor: colors[i % colors.length],
-			tension: 0.1,
-		})),
+		datasets: [
+			...grades.map((grade, i) => ({
+				label: grade,
+				data: data[i],
+				fill: false,
+				borderColor: colors[i % colors.length],
+				tension: 0,
+			})),
+			{
+				label: "User Total Percent",
+				data: userPercent,
+				fill: false,
+				borderColor: "black",
+				tension: 0,
+			},
+		],
 	},
-
 	options: {
-		responsive: true,
+		responsive: false,
 		plugins: {
 			legend: {
 				position: "top",
 			},
 			title: {
 				display: true,
-				text: "Grade Boundaries Over the Years",
+				text: "Grade Boundaries Over the Years vs Overall Grade (%)",
+			},
+		},
+		scales: {
+			y: {
+				min: 0,
+				max: 100,
 			},
 		},
 	},
