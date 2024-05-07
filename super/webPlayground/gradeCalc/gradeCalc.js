@@ -140,7 +140,6 @@ document.addEventListener("DOMContentLoaded", function () {
 			e.target.value = Math.max(0, Math.min(max, e.target.value));
 		});
 	});
-
 });
 
 // PLOTTING
@@ -174,7 +173,7 @@ chart = new Chart(ctx, {
 				tension: 0,
 			})),
 			{
-				label: "User Total Percent",
+				label: "User Results",
 				data: userPercent,
 				fill: false,
 				borderColor: "black",
