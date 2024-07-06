@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="uniBudget.css">
+</head>
+
+<body>
+    <h1>University Budgeting</h1>
+    <h2><a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html"
+            target="_blank">Average Student Living Costs</a></h2>
+    <table>
+        <tr>
+            <th>Expense</th>
+            <th><a href="https://www.savethestudent.org/money/student-budgeting/what-do-students-spend-their-money-on.html#:~:text=money%20online.-,Average%20student%20living%20costs,-Expense"
+                    target="_blank">Cost per month</a></th>
+            <th title="costPerMonth / 4.34524
+            ">Cost per week</th>
+            <th title="costPerWeek * 42">Cost per Year (42 weeks)</th>
+        </tr>
+        <tr>
+            <td>Groceries</td>
+            <td>£133.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Household bills</td>
+            <td>£79.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Going out</td>
+            <td>£69.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Transport</td>
+            <td>£69.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Takeaways and eating out</td>
+            <td>£66.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Clothes and shopping</td>
+            <td>£48.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Holidays and events</td>
+            <td>£36.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Health and wellbeing</td>
+            <td>£26.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Course materials</td>
+            <td>£24.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Other</td>
+            <td>£25.00</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Sum</td>
+            <td id="sumOfAverageCosts"></td>
+            <td id="sumOfAverageCostsPerWeek"></td>
+            <td id="sumOfAverageCostsPerYear"></td>
+        </tr>
+    </table>
+    <canvas id="myChart"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="uniBudget.js"></script>
+</body>
+
+</html>
